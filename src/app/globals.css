@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.site-logo {
+  padding: 15px 0;
+  width: 280px;
+  display: flex;
+  align-items: center;
+}
+.site-logo h1 {
+  display: none;
+}
+
+.site-logo div {
+  width: 100%;
+}
+.site-logo .logo-since {
+  margin: auto;
+  margin-bottom: 4px;
+  width: 35%;
+}
+.site-logo .logo-main {
+  margin: auto;
+  width: 100%;
+  display: block;
+}
+
+.site-logo .cls-1 {
+  fill: black;
+}
+.site-logo .cls-2 {
+  fill: black;
+}
+
+@media all and (max-width: 767px) {
+  .site-logo {
+    padding: 10px 0px;
+    max-width: 200px;
+    width: 200px;
+  }
+}
