@@ -17,7 +17,7 @@ export default function Menu() {
               <li className='border-b border-gray-600 border-dashed'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
                 >
                   Home
                 </Link>
@@ -25,7 +25,7 @@ export default function Menu() {
               <li className='border-b border-gray-600 border-dashed'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
                 >
                   Buy Now
                 </Link>
@@ -33,7 +33,7 @@ export default function Menu() {
               <li className='border-b border-gray-600 border-dashed'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
                 >
                   Special Offers
                 </Link>
@@ -41,7 +41,7 @@ export default function Menu() {
               <li className='border-b border-gray-600 border-dashed'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
                 >
                   Grarantee
                 </Link>
