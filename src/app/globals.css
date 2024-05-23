@@ -38,3 +38,58 @@
     width: 200px;
   }
 }
+
+.floating,
+.floating2,
+.floating3 {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.floating2 {
+  animation-duration: 4s;
+}
+.floating2 {
+  animation-duration: 2s;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.wiggle,
+.wiggle2,
+.wiggle3,
+.hover-wiggle:hover {
+  animation-name: wiggle;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.wiggle2 {
+  animation-duration: 1s;
+}
+.wiggle3 {
+  animation-duration: 1.25s;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}

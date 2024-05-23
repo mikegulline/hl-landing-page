@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div>
       <div className='container mx-auto'>
-        <div className='px-5 pt-5'>
+        <div className='p-5'>
           <div className='flex justify-between items-center'>
             <span className='hidden md:flex justify-center items-center w-14 h-14 text-2xl rounded-full invisible'>
               Shim
