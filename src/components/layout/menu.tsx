@@ -12,43 +12,43 @@ export default function Menu() {
       <MenuToggelButton open={open} setOpen={setOpen} />
       <MenuDrawr open={open}>
         <div className='container lg:max-w-screen-md mx-auto h-full flex items-center '>
-          <div className='px-5 w-full flex flex-col justify-between h-full pt-15 pb-5 md:pt-20 md:pb-10'>
+          <div className='px-5 w-full flex flex-col justify-between h-full pt-16 pb-5 md:pt-20 md:pb-10'>
             <ul>
-              <li className='border-b border-gray-600 border-dashed'>
+              <li className='border-b-4 border-gray-600 border-solid'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-white'
                 >
                   Home
                 </Link>
               </li>
-              <li className='border-b border-gray-600 border-dashed'>
+              <li className='border-b-4 border-gray-600 border-solid'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-white'
                 >
                   Buy Now
                 </Link>
               </li>
-              <li className='border-b border-gray-600 border-dashed'>
+              <li className='border-b-4 border-gray-600 border-solid'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-white'
                 >
                   Special Offers
                 </Link>
               </li>
-              <li className='border-b border-gray-600 border-dashed'>
+              <li className='border-b-4 border-gray-600 border-solid'>
                 <Link
                   href='/'
-                  className='text-gray-300 text-4xl md:text-7xl block py-6 md:py-10 uppercase font-black hover:text-white'
+                  className='text-gray-300 text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-white'
                 >
                   Grarantee
                 </Link>
               </li>
             </ul>
             <ul className='mt-5 md:mt-10 flex flex-wrap-reverse md:flex-nowrap justify-between items-center gap-5'>
-              <li className='w-full border-t border-gray-600 border-dashed pt-5 md:border-t-0 md:pt-0'>
+              <li className='w-full border-t-4 border-gray-600 border-solid pt-5 md:border-t-0 md:pt-0'>
                 <span className='text-white block'>
                   &copy; 2024 HempLand® USA, INC
                 </span>
