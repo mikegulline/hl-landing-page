@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .site-logo {
-  padding: 15px 0;
   width: 280px;
   display: flex;
   align-items: center;
@@ -35,7 +34,6 @@
 
 @media all and (max-width: 767px) {
   .site-logo {
-    padding: 10px 0px;
     max-width: 200px;
     width: 200px;
   }
