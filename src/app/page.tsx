@@ -22,13 +22,13 @@ export default function Home() {
               <div className='sm:pl-6 lg:lg:pl-10 2xl:pl-14 sm:border-l-8 border-solid border-fuchsia-300 w-full max-w-xl lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <h1 className=' leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight mb-10 sm:mb-0 text-center sm:text-left text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold '>
                   3 Reasons Why <br />
-                  BLISS BOMBS™ Blow <br />
+                  Bliss Bombs™ Blow <br />
                   Away ALL Hemp <br />
                   Gummies
                 </h1>
               </div>
-              <div className=' max-w-md relative z-0'>
-                <div className='absolute flex inset-0 items-center justify-center scale-[250%]  lg:scale-[350%] rotate-90 sm:rotate-0'>
+              <div className='w-full relative z-0'>
+                <div className='absolute flex inset-0 items-center justify-center scale-[250%]  sm:scale-[225%] rotate-90 sm:rotate-0'>
                   <Image
                     src={Explosion}
                     width={2000}
@@ -223,7 +223,7 @@ export default function Home() {
           <div className='px-5'>
             <div className='flex flex-col-reverse xl:flex-row items-center relative '>
               <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
-                <div className=' bg-black/80 p-5 md:p-10 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
+                <div className=' bg-black/60 p-5 md:p-10 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
                   <p className='text-lg'>
                     <span className=' bg-yellow-100 text-black px-2 py-1 rounded font-medium'>
                       A one month supply of BLISS BOMBS™ costs $85.00 plus
