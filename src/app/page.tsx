@@ -81,9 +81,16 @@ export default function Home() {
         <div className='px-5'>
           <div className='block lg:grid grid-cols-6 mb-10 lg:mb-20'>
             <div className=' float-left lg:float-none lg:col-span-1 lg:text-center pr-5 lg:pr-0'>
-              <p className='font-black text-purple-300 text-9xl relative lg:-top-3'>
-                1
-              </p>
+              <div className=' w-40 h-40 relative flex items-center justify-center'>
+                <Image
+                  src={Gummy}
+                  width={150}
+                  height={100}
+                  alt='Gummy'
+                  className=' absolute'
+                />
+                <p className='font-black text-white text-8xl relative '>1</p>
+              </div>
             </div>
             <div className='col-span-4 lg:col-span-3'>
               <div>
@@ -112,21 +119,37 @@ export default function Home() {
           </div>
           <div className='mb-10 lg:mb-20 pt-10 lg:pt-20 border-t-8 border-solid border-purple-300'>
             <div className='block lg:grid grid-cols-6 mb-10'>
-              <div className=' float-left lg:float-none lg:col-span-1 lg:text-center pr-5 lg:pr-0'>
-                <p className='font-black text-purple-300 text-9xl relative lg:-top-3'>
-                  2
-                </p>
+              <div className=' w-40 h-40 relative flex items-center justify-center'>
+                <Image
+                  src={Gummy}
+                  width={150}
+                  height={100}
+                  alt='Gummy'
+                  className=' absolute'
+                />
+                <p className='font-black text-white text-8xl relative '>2</p>
               </div>
               <div className='col-span-4 lg:col-span-3'>
                 <div>
                   <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
                     BLISS BOMBS™ contain a whopping 135 mg of hemp&apos;s good
-                    stuff. No other hemp gummies do, plus Bliss Bombs™ also
-                    contain a fusion of 5 more powerful plant extracts (black
-                    pepper, rosemary, clove, hops, and jujube) that help ensure
-                    Bliss Bombs™ truly deliver.
+                    stuff. No other hemp gummies even come close, plus Bliss
+                    Bombs™ also contain a fusion of 5 more powerful plant
+                    extracts that work with our premium hemp extract to help
+                    ensure Bliss Bombs™ deliver big time.
                   </p>
-                  <div className='grid grid-cols-5 mb-10'>
+                  <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
+                    However, please understand that bliss does not mean high or
+                    spaced out. The bliss feelings to which we refer are the
+                    feelings you experience when Bliss Bombs™ have naturally
+                    helped balance both your body and mind, the feeling of being
+                    amazingly relaxed and totally clear, the feeling of absolute
+                    well being, the feeling of indescribable happiness. Bliss is
+                    your true nature, a far better and more profound experience
+                    than just being high.
+                  </p>
+
+                  {/* <div className='grid grid-cols-5 mb-10'>
                     <Image
                       src={BlackPepper}
                       width={100}
@@ -157,7 +180,7 @@ export default function Home() {
                       alt='Jujube'
                       className='rounded-lg shadow-xl shadow-purple-300  border-4 border-solid border-white w-4/5'
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className='col-span-2'>
@@ -171,41 +194,17 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='block lg:grid grid-cols-6 mb-10 lg:mb-20'>
-              <div className='text-center'>
-                <p className='font-black text-purple-300 text-3xl lg:text-9xl relative -top-3'></p>
-              </div>
-              <div className='col-span-4 lg:col-span-3'>
-                <div>
-                  <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
-                    However, please understand that bliss does not mean high or
-                    spaced out. The bliss feelings to which we refer are the
-                    feelings you experience when Bliss Bombs™ have naturally
-                    helped balance both your body and mind, the feeling of being
-                    amazingly relaxed and totally clear, the feeling of absolute
-                    well being, the feeling of indescribable happiness. Bliss is
-                    your true nature, a far better and more profound experience
-                    than just being high.
-                  </p>
-                </div>
-              </div>
-              <div className='col-span-2'>
-                <div className='lg:pl-10'>
-                  <Image
-                    src={Hippy}
-                    width={600}
-                    alt='Happy Hippy'
-                    className='rounded-xl shadow-2xl shadow-purple-300 border-4 border-solid border-white w-full'
-                  />
-                </div>
-              </div>
-            </div>
           </div>
           <div className='block lg:grid grid-cols-6 mb-10 lg:mb-20 pt-10 lg:pt-20 border-t-8 border-solid border-purple-300'>
-            <div className=' float-left lg:float-none lg:col-span-1 lg:text-center pr-5 lg:pr-0'>
-              <p className='font-black text-purple-300 text-9xl relative lg:-top-3'>
-                3
-              </p>
+            <div className=' w-40 h-40 relative flex items-center justify-center'>
+              <Image
+                src={Gummy}
+                width={150}
+                height={100}
+                alt='Gummy'
+                className=' absolute'
+              />
+              <p className='font-black text-white text-8xl relative '>3</p>
             </div>
             <div className='col-span-4 lg:col-span-3'>
               <div>
