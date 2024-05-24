@@ -14,41 +14,41 @@ export default function Menu() {
         <div className='container lg:max-w-screen-md mx-auto h-full flex items-center '>
           <div className='px-5 w-full flex flex-col justify-between h-full pt-16 pb-5 md:pt-20 md:pb-10'>
             <ul>
-              <li className='border-b-4 border-purple-300 border-solid'>
+              <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
                   href='/'
-                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-purple-400'
+                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Home
                 </Link>
               </li>
-              <li className='border-b-4 border-purple-300 border-solid'>
+              <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
                   href='/'
-                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-purple-400'
+                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Buy Now
                 </Link>
               </li>
-              <li className='border-b-4 border-purple-300 border-solid'>
+              <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
                   href='/'
-                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-purple-400'
+                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Special Offers
                 </Link>
               </li>
-              <li className='border-b-4 border-purple-300 border-solid'>
+              <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
                   href='/'
-                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-purple-400'
+                  className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Grarantee
                 </Link>
               </li>
             </ul>
             <ul className='mt-5 md:mt-10 flex flex-wrap-reverse md:flex-nowrap justify-between items-center gap-5'>
-              <li className='w-full border-t-4 border-purple-300 border-solid pt-5 md:border-t-0 md:pt-0'>
+              <li className='w-full border-t-4 border-fuchsia-300 border-solid pt-5 md:border-t-0 md:pt-0'>
                 <span className='text-white block'>
                   &copy; 2024 HempLand® USA, INC
                 </span>
@@ -57,7 +57,7 @@ export default function Menu() {
               <li>
                 <Link
                   href='/'
-                  className=' text-white font-light block underline hover:text-purple-400'
+                  className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Contact
                 </Link>
@@ -65,7 +65,7 @@ export default function Menu() {
               <li>
                 <Link
                   href='/'
-                  className=' text-white font-light block underline hover:text-purple-400'
+                  className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Returns
                 </Link>
@@ -73,7 +73,7 @@ export default function Menu() {
               <li>
                 <Link
                   href='/'
-                  className=' text-white font-light block underline hover:text-purple-400'
+                  className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Terms
                 </Link>
@@ -81,7 +81,7 @@ export default function Menu() {
               <li>
                 <Link
                   href='/'
-                  className=' text-white font-light block underline hover:text-purple-400'
+                  className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Privacy
                 </Link>
@@ -117,11 +117,11 @@ interface Toggle extends ToggleValue {
 const MenuToggelButton: FC<Toggle> = ({ open, setOpen }) => (
   <button
     onClick={() => setOpen((o) => !o)}
-    className={`hover-wiggle flex justify-center z-20 items-center w-14 h-14 md:w-20 md:h-20 rounded-xl
+    className={`hover-wiggle flex justify-center z-30 items-center w-14 h-14 md:w-20 md:h-20 rounded-xl
   ${
     open
-      ? 'text-purple-950 bg-purple-300 hover:bg-white'
-      : 'text-white bg-black hover:bg-purple-900'
+      ? 'text-fuchsia-950 bg-fuchsia-300 hover:bg-white'
+      : 'text-white bg-black hover:bg-fuchsia-900'
   }
   `}
   >
@@ -136,7 +136,7 @@ const MenuToggelButton: FC<Toggle> = ({ open, setOpen }) => (
 const MenuDrawr: FC<ToggleValueWithChildren> = ({ children, open }) => (
   <div className='absolute inset-0 overflow-hidden pointer-events-none'>
     <div
-      className={` pointer-events-auto absolute inset-0 bg-gradient-to-t from-purple-600 to-purple-950 z-10 transition-transform duration-200 ${
+      className={` pointer-events-auto absolute inset-0 bg-gradient-to-t from-fuchsia-600 to-fuchsia-950 z-20 transition-transform duration-200 ${
         open ? 'translate-x-0' : 'translate-x-full'
       }`}
     >

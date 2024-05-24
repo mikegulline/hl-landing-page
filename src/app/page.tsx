@@ -9,15 +9,16 @@ import Rosemary from '../../public/images/cannabitol-ecs5-ingredient-rosemary.jp
 import Clove from '../../public/images/cannabitol-ecs5-ingredient-clove.jpg';
 import Hops from '../../public/images/cannabitol-ecs5-ingredient-hops.jpg';
 import Jujube from '../../public/images/cannabitol-ecs5-ingredient-jujube.jpg';
+import Explosion from '../../public/images/exp.jpg';
 
 export default function Home() {
   return (
     <>
-      <div className='background bg-gradient-to-t from-purple-600 to-purple-950 text-white'>
+      <div className='background bg-fuchsia-950 text-white overflow-hidden'>
         <div className='container mx-auto py-10 lg:py-20'>
           <div className='px-5'>
-            <div className='flex flex-col sm:flex-row items-center'>
-              <div className='sm:pl-6 lg:lg:pl-10 2xl:pl-14 sm:border-l-8 border-solid border-purple-300 w-full max-w-xl lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl'>
+            <div className='flex flex-col sm:flex-row items-center relative '>
+              <div className='sm:pl-6 lg:lg:pl-10 2xl:pl-14 sm:border-l-8 border-solid border-purple-300 w-full max-w-xl lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <h1 className=' leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight mb-10 sm:mb-0 text-center sm:text-left text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold '>
                   3 Reasons Why <br />
                   Bliss Bombs™ Blow <br />
@@ -25,7 +26,16 @@ export default function Home() {
                   Gummies
                 </h1>
               </div>
-              <div className='w-full'>
+              <div className='w-full relative z-0'>
+                <div className='absolute flex inset-0 items-center justify-center scale-[250%]  sm:scale-[225%] rotate-90 sm:rotate-0'>
+                  <Image
+                    src={Explosion}
+                    width={2000}
+                    alt='Explosion'
+                    className=''
+                  />
+                  <div className=' bg-gradient-to-l from-transparent to-fuchsia-950  absolute top-0 left-0 bottom-0 w-48 xl:w-80 '></div>
+                </div>
                 <span className='mx-auto block relative max-w-60 sm:max-w-40 md:max-w-48 lg:max-w-56  xl:max-w-72 2xl:max-w-96'>
                   <Image
                     src={Product}
