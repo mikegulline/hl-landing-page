@@ -117,12 +117,12 @@ export default function Home() {
             </div>
             <div className='col-span-2'>
               <div className='lg:pl-10'>
-                <Image
-                  src={Hemp}
-                  width={600}
-                  alt='Rows of USA grown hemp'
-                  className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white w-full'
-                />
+                <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full  overflow-hidden'>
+                  <Image src={Hemp} width={600} alt='Rows of USA grown hemp' />
+                  <p className='text-sm text-center p-2 pt-3'>
+                    100% Grown and Manufactured in the U.S.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -163,12 +163,12 @@ export default function Home() {
               </div>
               <div className='col-span-2'>
                 <div className='lg:pl-10'>
-                  <Image
-                    src={Graph}
-                    width={600}
-                    alt='Graph'
-                    className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full'
-                  />
+                  <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
+                    <Image src={Graph} width={600} alt='Graph' />
+                    <p className='text-sm text-center p-2 pt-3'>
+                      4X more powerful than our colosest competitor.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -204,12 +204,16 @@ export default function Home() {
             </div>
             <div className='col-span-2'>
               <div className='lg:pl-10'>
-                <Image
-                  src={SideEffects}
-                  width={600}
-                  alt='No negative side effects'
-                  className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full'
-                />
+                <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
+                  <Image
+                    src={SideEffects}
+                    width={600}
+                    alt='No negative side effects'
+                  />
+                  <p className='text-sm text-center p-2 pt-3'>
+                    No negative side effects. 100% Guaranteed.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -284,7 +288,7 @@ export default function Home() {
                           $255
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
+                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
                           $255
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
@@ -307,7 +311,7 @@ export default function Home() {
                           $102
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
+                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
                           $238
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
@@ -330,7 +334,7 @@ export default function Home() {
                           $34
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
+                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
                           $136
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
@@ -353,7 +357,7 @@ export default function Home() {
                           $0
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
+                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
                           $85
                           <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
