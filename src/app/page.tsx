@@ -229,7 +229,7 @@ export default function Home() {
                       A one month supply of BLISS BOMBS™ costs $85.00 plus
                       $8.95 for shipping.
                     </span>{' '}
-                    A 3 month supply is discounted 30%, 6 months 40%, and 9
+                    A 2 month supply is discounted 20%, 4 months 30%, and 6
                     months 50%. Plus, discounted orders include free shipping.{' '}
                     <strong>
                       All orders come with a 100% money back guarantee. No
@@ -299,15 +299,15 @@ export default function Home() {
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
                           $340
-                          <sup className='text-[60%] hidden lg:inline'>.70</sup>
+                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
                           $102
-                          <sup className='text-[60%] hidden lg:inline'>.88</sup>
+                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
                           $238
-                          <sup className='text-[60%] hidden lg:inline'>.82</sup>
+                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
                       </tr>
                       <tr
@@ -330,7 +330,7 @@ export default function Home() {
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
                           $136
-                          <sup className='text-[60%] hidden lg:inline'>.90</sup>
+                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
                       </tr>
                       <tr
@@ -341,19 +341,19 @@ export default function Home() {
                           1
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          10%
+                          0%
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
                           $85
-                          <sup className='text-[60%] hidden lg:inline'>.85</sup>
+                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          $8
-                          <sup className='text-[60%] hidden lg:inline'>.50</sup>
+                          $0
+                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
                         <td className='cursor-pointer pointer-events-auto h-16 lg:h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
-                          $76
-                          <sup className='text-[60%] hidden lg:inline'>.50</sup>
+                          $85
+                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
                         </td>
                       </tr>
                     </tbody>
