@@ -120,7 +120,7 @@ export default function Home() {
                 <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full  overflow-hidden'>
                   <Image src={Hemp} width={600} alt='Rows of USA grown hemp' />
                   <p className='text-sm text-center p-2 pt-3'>
-                    100% Grown and Manufactured in the U.S.
+                    100% grown and manufactured in the U.S.
                   </p>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export default function Home() {
                   <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
                     <Image src={Graph} width={600} alt='Graph' />
                     <p className='text-sm text-center p-2 pt-3'>
-                      4X more powerful than our colosest competitor.
+                      4X more powerful than our closest competitor.
                     </p>
                   </div>
                 </div>
