@@ -2,10 +2,10 @@
 import Image from 'next/image';
 import Product from '../../public/images/bilss-bombs.png';
 import Gummy from '../../public/images/gummy.png';
-import Hemp from '../../public/images/rows-of-hemp.png';
+import Hemp from '../../public/images/rows-of-hemp.jpg';
 import Graph from '../../public/images/graph.jpg';
 import Explosion from '../../public/images/exp.jpg';
-import SideEffects from '../../public/images/serious-negative-side-effects.png';
+import SideEffects from '../../public/images/serious-negative-side-effects.jpg';
 
 export default function Home() {
   const handleClick = (id: number, count: number) => {
@@ -19,7 +19,7 @@ export default function Home() {
         <div className='container mx-auto py-10 lg:py-20'>
           <div className='px-5'>
             <div className='flex flex-col sm:flex-row items-center relative '>
-              <div className='sm:pl-6 lg:lg:pl-10 2xl:pl-14 sm:border-l-8 border-solid border-fuchsia-300 w-full max-w-xl lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
+              <div className='sm:pl-6 lg:lg:pl-10 2xl:pl-14 sm:border-l-8 border-solid border-yellow-100 w-full max-w-xl lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <h1 className=' leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight mb-10 sm:mb-0 text-center sm:text-left text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold '>
                   3 Reasons Why <br />
                   Bliss Bombs™ Blow <br />
@@ -106,10 +106,12 @@ export default function Home() {
                   independent lab testing, etc etc. Most hemp companies say
                   something similar, but what most hemp companies can&apos;t say
                   is they&apos;ve been in business since 2014.{' '}
-                  <span className=' bg-fuchsia-100 p-1 rounded'>
+                  <span className=' bg-yellow-100 text-black px-2 py-1 rounded font-medium'>
                     There is simply no substitute for longevity and experience.
                   </span>{' '}
-                  <span className=' bg-fuchsia-100 p-1 rounded'>PERIOD.</span>
+                  <span className=' bg-yellow-100 text-black px-2 py-1 rounded font-medium'>
+                    PERIOD.
+                  </span>
                 </p>
               </div>
             </div>
@@ -361,7 +363,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='w-full relative z-0'>
-                <div className='absolute flex inset-0 items-center justify-center scale-[250%]  sm:scale-[225%] rotate-90 xl:rotate-0'>
+                <div className='absolute flex inset-0 items-center justify-center scale-[250%]  sm:scale-[225%] -rotate-90 xl:rotate-0'>
                   <Image
                     src={Explosion}
                     width={2000}
