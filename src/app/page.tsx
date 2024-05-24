@@ -26,10 +26,7 @@ export default function Home() {
                 </h1>
               </div>
               <div className='w-full'>
-                <span
-                  className='mx-auto block relative max-w-60 sm:max-w-40 md:max-w-48 lg:max-w-56  xl:max-w-72 2xl:max-w-96
-                '
-                >
+                <span className='mx-auto block relative max-w-60 sm:max-w-40 md:max-w-48 lg:max-w-56  xl:max-w-72 2xl:max-w-96'>
                   <Image
                     src={Product}
                     width={400}
@@ -81,14 +78,14 @@ export default function Home() {
             <div className='col-span-4 lg:col-span-3'>
               <div>
                 <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
-                  HempLand USA® produces Bliss Bombs™. We've been in business
-                  since 2014, longer than 99.9% of all hemp companies. Yes, we
-                  only use U.S. grown hemp, and yes our manufacturing facility
-                  is FDA registered, and yes we use 3rd party independent lab
-                  testing, etc etc. Most hemp companies say something similar,
-                  but what most hemp companies can't say is they've been in
-                  business since 2014. There is simply no substitute for
-                  longevity and experience. Period.
+                  HempLand USA® produces Bliss Bombs™. We&apos;ve been in
+                  business since 2014, longer than 99.9% of all hemp companies.
+                  Yes, we only use U.S. grown hemp, and yes our manufacturing
+                  facility is FDA registered, and yes we use 3rd party
+                  independent lab testing, etc etc. Most hemp companies say
+                  something similar, but what most hemp companies can&apos;t say
+                  is they&apos;ve been in business since 2014. There is simply
+                  no substitute for longevity and experience. Period.
                 </p>
               </div>
             </div>
@@ -113,7 +110,7 @@ export default function Home() {
               <div className='col-span-4 lg:col-span-3'>
                 <div>
                   <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
-                    BLISS BOMBS™ contain a whopping 135 mg of hemp's good
+                    BLISS BOMBS™ contain a whopping 135 mg of hemp&apos;s good
                     stuff. No other hemp gummies do, plus Bliss Bombs™ also
                     contain a fusion of 5 more powerful plant extracts (black
                     pepper, rosemary, clove, hops, and jujube) that help ensure
@@ -208,7 +205,7 @@ export default function Home() {
                   induce short lived feelings of being high or spacey but
                   certainly not bliss. More importantly, Delta 8 and Delta 9
                   gummies can cause serious negative side effects, like
-                  disorientation and heavy anxiety. Don't be fooled, BLISS
+                  disorientation and heavy anxiety. Don&apos;t be fooled, BLISS
                   BOMBS™ are the real deal, an incomparable explosion of long
                   lasting bliss with no negative side effects. Why not join
                   thousands of people everyday who enjoy Bliss Bombs? Find out
