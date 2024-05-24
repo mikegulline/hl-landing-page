@@ -6,13 +6,16 @@ import Hemp from '../../public/images/rows-of-hemp.jpg';
 import Graph from '../../public/images/graph.jpg';
 import Explosion from '../../public/images/exp.jpg';
 import SideEffects from '../../public/images/serious-negative-side-effects.jpg';
+import HappyMan1 from '../../public/images/happy-man-01.png';
+import HappyMan2 from '../../public/images/happy-man-02.png';
+import HappyMan3 from '../../public/images/happy-man-03.png';
+import HappyMan4 from '../../public/images/happy-man-04.png';
+import HappyWoman1 from '../../public/images/happy-woman-01.png';
+import HappyWoman2 from '../../public/images/happy-woman-02.png';
+import HappyWoman3 from '../../public/images/happy-woman-03.png';
+import HappyWoman4 from '../../public/images/happy-woman-04.png';
 
 export default function Home() {
-  const handleClick = (id: number, count: number) => {
-    const link = window.location.replace(
-      `https://www.hemplandusa.com/cart/?fill_cart=${count}x${id}`
-    );
-  };
   return (
     <>
       <div className='background bg-fuchsia-950 text-white overflow-hidden'>
@@ -92,7 +95,12 @@ export default function Home() {
             <div className='col-span-2'>
               <div className='lg:pl-10'>
                 <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full  overflow-hidden'>
-                  <Image src={Hemp} width={600} alt='Rows of USA grown hemp' />
+                  <Image
+                    src={Hemp}
+                    width={600}
+                    alt='Rows of USA grown hemp'
+                    className='w-full'
+                  />
                   <p className='text-sm text-center p-2 pt-3'>
                     100% grown and manufactured in the U.S.
                   </p>
@@ -138,7 +146,12 @@ export default function Home() {
               <div className='col-span-2'>
                 <div className='lg:pl-10'>
                   <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
-                    <Image src={Graph} width={600} alt='Graph' />
+                    <Image
+                      src={Graph}
+                      width={600}
+                      alt='Graph'
+                      className='w-full'
+                    />
                     <p className='text-sm text-center p-2 pt-3'>
                       4X more powerful than our closest competitor.
                     </p>
@@ -168,31 +181,40 @@ export default function Home() {
                   feelings of being high or spacey, but certainly not bliss.
                   More importantly, Delta 9 gummies can cause serious negative
                   side effects, like disorientation and heavy anxiety that can
-                  last for hours. Don&apos;t be fooled, BLISS BOMBS™ are the
-                  real deal, an incomparable explosion of long lasting bliss
-                  with no negative side effects. Why not join thousands of
-                  people everyday who enjoy Bliss Bombs? Find out who your truly
-                  are!
+                  last for hours.{' '}
+                </p>
+                <div className='lg:hidden rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
+                  <Image
+                    src={SideEffects}
+                    width={600}
+                    alt='No negative side effects'
+                    className='w-full'
+                  />
+                </div>
+                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
+                  Don&apos;t be fooled, BLISS BOMBS™ are the real deal, an
+                  incomparable explosion of long lasting bliss with no negative
+                  side effects. Why not join thousands of people everyday who
+                  enjoy Bliss Bombs? Find out who you truly are!
                 </p>
               </div>
             </div>
             <div className='col-span-2'>
               <div className='lg:pl-10'>
-                <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
+                <div className='hidden lg:block rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
                   <Image
                     src={SideEffects}
                     width={600}
                     alt='No negative side effects'
+                    className='w-full'
                   />
-                  <p className='text-sm text-center p-2 pt-3'>
-                    No negative side effects. 100% Guaranteed.
-                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <HappyPeople />
       <div className='bg-[#2e0534] text-center py-4 sm:py-10'>
         <h2 className='font-black text-fuchsia-300 text-4xl sm:text-6xl'>
           BUY BLISS BOMBS™
@@ -221,133 +243,7 @@ export default function Home() {
                     .{' '}
                   </p>
                 </div>
-                <div className='rounded-xl overflow-hidden mt-6 border-4 lg:border-8 border-fuchsia-300 border-solid'>
-                  <table className='cw-table w-full mb-0'>
-                    <thead>
-                      <tr className='border-b border-b-gray-400 border-solid'>
-                        <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
-                          QTY
-                        </th>
-                        <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
-                          Promo<span className='hidden lg:inline'>tion</span>
-                        </th>
-                        <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
-                          Regular
-                          <span className='hidden lg:inline'> Price</span>
-                        </th>
-                        <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
-                          <span className='hidden lg:inline'>Your </span>Savings
-                        </th>
-                        <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
-                          Final<span className='hidden lg:inline'> Price</span>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr
-                        className='border-b border-b-gray-400 border-solid group'
-                        onClick={() => handleClick(1197, 6)}
-                      >
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          6
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          50%
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
-                          $510
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          $255
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                          $255
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                      </tr>
-                      <tr
-                        className='border-b border-b-gray-400 border-solid group'
-                        onClick={() => handleClick(1197, 4)}
-                      >
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          4
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          30%
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
-                          $340
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          $102
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                          $238
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                      </tr>
-                      <tr
-                        className='border-b border-b-gray-400 border-solid group'
-                        onClick={() => handleClick(1197, 2)}
-                      >
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          2
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          20%
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
-                          $170
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          $34
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                          $136
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                      </tr>
-                      <tr
-                        className='border-b border-b-gray-400 border-solid group'
-                        onClick={() => handleClick(1197, 1)}
-                      >
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          1
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          0%
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
-                          $85
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                          $0
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                        <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                          $85
-                          <sup className='text-[60%] hidden lg:inline'>.00</sup>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <p className='text-xs text-black p-2 uppercase font-medium leading-none bg-white'>
-                    *All information contained within this site is for reference
-                    purposes only and are not intended to substitute the advice
-                    given by a pharmacist, physician, or any other licensed
-                    health-care professional. HempLand® USA products and all
-                    statements have not been evaluated by the Food and Drug
-                    Administration and are not intended to diagnose, treat,
-                    cure, or prevent any disease.
-                  </p>
-                </div>
+                <Offers />
               </div>
               <div className='w-full relative z-0'>
                 <div className='absolute flex inset-0 items-center justify-center scale-[250%]  sm:scale-[225%] -rotate-90 xl:rotate-0'>
@@ -380,6 +276,159 @@ export default function Home() {
     </>
   );
 }
+
+const HappyPeople = () => {
+  return (
+    <div className='grid grid-cols-4 lg:grid-cols-8'>
+      <Image src={HappyMan1} alt='Happy' width={500} />
+      <Image src={HappyWoman1} alt='Happy' width={500} />
+      <Image src={HappyMan2} alt='Happy' width={500} />
+      <Image src={HappyWoman2} alt='Happy' width={500} />
+      <Image src={HappyMan3} alt='Happy' width={500} />
+      <Image src={HappyWoman3} alt='Happy' width={500} />
+      <Image src={HappyMan4} alt='Happy' width={500} />
+      <Image src={HappyWoman4} alt='Happy' width={500} />
+    </div>
+  );
+};
+
+const Offers = () => {
+  const handleClick = (id: number, count: number) => {
+    const link = window.location.replace(
+      `https://www.hemplandusa.com/cart/?fill_cart=${count}x${id}`
+    );
+  };
+  return (
+    <>
+      <div className='rounded-xl overflow-hidden mt-6 border-4 lg:border-8 border-fuchsia-300 border-solid'>
+        <table className='cw-table w-full mb-0'>
+          <thead>
+            <tr className='border-b border-b-gray-400 border-solid'>
+              <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
+                QTY
+              </th>
+              <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
+                Promo<span className='hidden lg:inline'>tion</span>
+              </th>
+              <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
+                Regular
+                <span className='hidden lg:inline'> Price</span>
+              </th>
+              <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
+                <span className='hidden lg:inline'>Your </span>Savings
+              </th>
+              <th className='text-xs lg:text-sm bg-fuchsia-900 h-6 text-center border-b-2 border-solid border-black py-1'>
+                Final<span className='hidden lg:inline'> Price</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              className='border-b border-b-gray-400 border-solid group'
+              onClick={() => handleClick(1197, 6)}
+            >
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                6
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                50%
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+                $510
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                $255
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+                $255
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+            </tr>
+            <tr
+              className='border-b border-b-gray-400 border-solid group'
+              onClick={() => handleClick(1197, 4)}
+            >
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                4
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                30%
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+                $340
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                $102
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+                $238
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+            </tr>
+            <tr
+              className='border-b border-b-gray-400 border-solid group'
+              onClick={() => handleClick(1197, 2)}
+            >
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                2
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                20%
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+                $170
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                $34
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+                $136
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+            </tr>
+            <tr
+              className='border-b border-b-gray-400 border-solid group'
+              onClick={() => handleClick(1197, 1)}
+            >
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                1
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                0%
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+                $85
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                $0
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+                $85
+                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p className='text-xs text-black p-2 font-medium leading-none bg-white'>
+          *All information contained within this site is for reference purposes
+          only and are not intended to substitute the advice given by a
+          pharmacist, physician, or any other licensed health-care professional.
+          These statements have not been evaluated by the Food and Drug
+          Administration. This product is not intended to diagnose, treat, cure,
+          or prevent any disease.
+        </p>
+      </div>
+    </>
+  );
+};
 
 const FloatingGummies = () => {
   return <></>;
