@@ -100,7 +100,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='mb-10 lg:mb-20 pt-10 border-t-8 border-solid border-purple-300'>
+          <div className='mb-10 lg:mb-20 pt-10 lg:pt-20 border-t-8 border-solid border-purple-300'>
             <div className='block lg:grid grid-cols-6 mb-10'>
               <div className=' float-left lg:float-none lg:col-span-1 lg:text-center pr-5 lg:pr-0'>
                 <p className='font-black text-purple-300 text-9xl relative lg:-top-3'>
