@@ -2,14 +2,9 @@ import Image from 'next/image';
 import Product from '../../public/images/bilss-bombs.png';
 import Gummy from '../../public/images/gummy.png';
 import Hemp from '../../public/images/rows-of-hemp.png';
-import Hippy from '../../public/images/happy-hippy.png';
 import Graph from '../../public/images/graph.jpg';
-import BlackPepper from '../../public/images/cannabitol-ecs5-ingredient-black-pepper.jpg';
-import Rosemary from '../../public/images/cannabitol-ecs5-ingredient-rosemary.jpg';
-import Clove from '../../public/images/cannabitol-ecs5-ingredient-clove.jpg';
-import Hops from '../../public/images/cannabitol-ecs5-ingredient-hops.jpg';
-import Jujube from '../../public/images/cannabitol-ecs5-ingredient-jujube.jpg';
 import Explosion from '../../public/images/exp.jpg';
+import SideEffects from '../../public/images/serious-negative-side-effects.png';
 
 export default function Home() {
   return (
@@ -18,7 +13,7 @@ export default function Home() {
         <div className='container mx-auto py-10 lg:py-20'>
           <div className='px-5'>
             <div className='flex flex-col sm:flex-row items-center relative '>
-              <div className='sm:pl-6 lg:lg:pl-10 2xl:pl-14 sm:border-l-8 border-solid border-purple-300 w-full max-w-xl lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
+              <div className='sm:pl-6 lg:lg:pl-10 2xl:pl-14 sm:border-l-8 border-solid border-fuchsia-300 w-full max-w-xl lg:max-w-xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <h1 className=' leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight mb-10 sm:mb-0 text-center sm:text-left text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold '>
                   3 Reasons Why <br />
                   Bliss Bombs™ Blow <br />
@@ -37,39 +32,42 @@ export default function Home() {
                   <div className=' bg-gradient-to-l from-transparent to-fuchsia-950  absolute top-0 left-0 bottom-0 w-48 xl:w-80 '></div>
                 </div>
                 <span className='mx-auto block relative max-w-60 sm:max-w-40 md:max-w-48 lg:max-w-56  xl:max-w-72 2xl:max-w-96'>
-                  <Image
-                    src={Product}
-                    width={400}
-                    height={100}
-                    alt='Bliss Bombs Gummies'
-                  />
-                  <div className='floating2 absolute -top-[15%] -right-[20%] w-[40%]'>
+                  <div className='flex justify-center items-center'>
+                    <div className=' w-full h-full bg-black shadow-[0_0_100px_25px_rgba(0,0,0,0.9)] absolute rounded-3xl scale-95'></div>
                     <Image
-                      src={Gummy}
-                      width={150}
+                      src={Product}
+                      width={400}
                       height={100}
-                      alt='Gummy'
-                      className='wiggle2'
-                    />
-                  </div>
-                  <div className='floating absolute top-[20%] -left-[15%]  w-[35%]'>
-                    <Image
-                      src={Gummy}
-                      width={120}
-                      height={100}
-                      alt='Gummy'
-                      className='wiggle'
+                      alt='Bliss Bombs Gummies'
+                      className='relative'
                     />
                   </div>
 
-                  <div className='floating3 absolute bottom-[10%] -right-[5%]  w-[25%]'>
-                    <Image
-                      src={Gummy}
-                      width={100}
-                      height={100}
-                      alt='Gummy'
-                      className='wiggle3'
-                    />
+                  <div className='floating2 absolute  -top-[10%] -right-[20%] w-[40%]'>
+                    <div className='wiggle2 flex justify-center items-center '>
+                      <Image src={Gummy} width={150} height={100} alt='Gummy' />
+                      <div className='font-black text-white absolute text-3xl scale-[0.7] sm:scale-[0.6] lg:scale-[0.7] xl:scale-[0.85] 2xl:scale-[1]'>
+                        135mg
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='floating absolute top-[20%] -left-[15%]  w-[35%] '>
+                    <div className='wiggle2 flex justify-center items-center relative'>
+                      <Image src={Gummy} width={150} height={100} alt='Gummy' />
+                      <div className='font-black text-white absolute text-3xl  scale-[0.6] sm:scale-[0.5] lg:scale-[0.6] xl:scale-[0.75] 2xl:scale-[0.9]'>
+                        135mg
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='floating3 absolute bottom-[5%] -right-[5%]  w-[25%]'>
+                    <div className='wiggle3 flex justify-center items-center relative'>
+                      <Image src={Gummy} width={150} height={100} alt='Gummy' />
+                      <div className='font-black text-white absolute text-3xl scale-[0.45] sm:scale-[0.3] lg:scale-[0.4] xl:scale-[0.5] 2xl:scale-[0.7]'>
+                        135mg
+                      </div>
+                    </div>
                   </div>
                 </span>
               </div>
@@ -101,8 +99,11 @@ export default function Home() {
                   facility is FDA registered, and yes we use 3rd party
                   independent lab testing, etc etc. Most hemp companies say
                   something similar, but what most hemp companies can&apos;t say
-                  is they&apos;ve been in business since 2014. There is simply
-                  no substitute for longevity and experience. Period.
+                  is they&apos;ve been in business since 2014.{' '}
+                  <span className=' bg-fuchsia-100 p-1 rounded'>
+                    There is simply no substitute for longevity and experience.
+                  </span>{' '}
+                  <span className=' bg-fuchsia-100 p-1 rounded'>PERIOD.</span>
                 </p>
               </div>
             </div>
@@ -112,22 +113,24 @@ export default function Home() {
                   src={Hemp}
                   width={600}
                   alt='Rows of USA grown hemp'
-                  className='rounded-xl shadow-2xl shadow-purple-300 border-4 border-solid border-white w-full'
+                  className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white w-full'
                 />
               </div>
             </div>
           </div>
-          <div className='mb-10 lg:mb-20 pt-10 lg:pt-20 border-t-8 border-solid border-purple-300'>
+          <div className='mb-10 lg:mb-20 pt-10 lg:pt-20 border-t-8 border-solid border-fuchsia-300'>
             <div className='block lg:grid grid-cols-6 mb-10'>
-              <div className=' w-40 h-40 relative flex items-center justify-center'>
-                <Image
-                  src={Gummy}
-                  width={150}
-                  height={100}
-                  alt='Gummy'
-                  className=' absolute'
-                />
-                <p className='font-black text-white text-8xl relative '>2</p>
+              <div className=' float-left lg:float-none lg:col-span-1 lg:text-center pr-5 lg:pr-0'>
+                <div className=' w-40 h-40 relative flex items-center justify-center'>
+                  <Image
+                    src={Gummy}
+                    width={150}
+                    height={100}
+                    alt='Gummy'
+                    className=' absolute'
+                  />
+                  <p className='font-black text-white text-8xl relative '>2</p>
+                </div>
               </div>
               <div className='col-span-4 lg:col-span-3'>
                 <div>
@@ -148,39 +151,6 @@ export default function Home() {
                     your true nature, a far better and more profound experience
                     than just being high.
                   </p>
-
-                  {/* <div className='grid grid-cols-5 mb-10'>
-                    <Image
-                      src={BlackPepper}
-                      width={100}
-                      alt='Black Pepper'
-                      className='rounded-lg shadow-xl shadow-purple-300  border-4 border-solid border-white w-4/5'
-                    />
-                    <Image
-                      src={Rosemary}
-                      width={100}
-                      alt='Rosemary'
-                      className='rounded-lg shadow-xl shadow-purple-300  border-4 border-solid border-white w-4/5'
-                    />
-                    <Image
-                      src={Clove}
-                      width={100}
-                      alt='Clove'
-                      className='rounded-lg shadow-xl shadow-purple-300  border-4 border-solid border-white w-4/5'
-                    />
-                    <Image
-                      src={Hops}
-                      width={100}
-                      alt='Hops'
-                      className='rounded-lg shadow-xl shadow-purple-300  border-4 border-solid border-white w-4/5'
-                    />
-                    <Image
-                      src={Jujube}
-                      width={100}
-                      alt='Jujube'
-                      className='rounded-lg shadow-xl shadow-purple-300  border-4 border-solid border-white w-4/5'
-                    />
-                  </div> */}
                 </div>
               </div>
               <div className='col-span-2'>
@@ -189,41 +159,50 @@ export default function Home() {
                     src={Graph}
                     width={600}
                     alt='Graph'
-                    className='rounded-xl shadow-2xl shadow-purple-300 border-4 border-solid border-white  mb-10  w-full'
+                    className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full'
                   />
                 </div>
               </div>
             </div>
           </div>
-          <div className='block lg:grid grid-cols-6 mb-10 lg:mb-20 pt-10 lg:pt-20 border-t-8 border-solid border-purple-300'>
-            <div className=' w-40 h-40 relative flex items-center justify-center'>
-              <Image
-                src={Gummy}
-                width={150}
-                height={100}
-                alt='Gummy'
-                className=' absolute'
-              />
-              <p className='font-black text-white text-8xl relative '>3</p>
+          <div className='block lg:grid grid-cols-6 mb-10 lg:mb-20 pt-10 lg:pt-20 border-t-8 border-solid border-fuchsia-300'>
+            <div className=' float-left lg:float-none lg:col-span-1 lg:text-center pr-5 lg:pr-0'>
+              <div className=' w-40 h-40 relative flex items-center justify-center'>
+                <Image
+                  src={Gummy}
+                  width={150}
+                  height={100}
+                  alt='Gummy'
+                  className=' absolute'
+                />
+                <p className='font-black text-white text-8xl relative '>3</p>
+              </div>
             </div>
             <div className='col-span-4 lg:col-span-3'>
               <div>
                 <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
                   The latest craze is for hemp gummies to contain artificially
-                  high levels of hemp derived Delta 8 and Delta 9 that may
-                  induce short lived feelings of being high or spacey but
-                  certainly not bliss. More importantly, Delta 8 and Delta 9
-                  gummies can cause serious negative side effects, like
-                  disorientation and heavy anxiety. Don&apos;t be fooled, BLISS
-                  BOMBS™ are the real deal, an incomparable explosion of long
-                  lasting bliss with no negative side effects. Why not join
-                  thousands of people everyday who enjoy Bliss Bombs? Find out
-                  who your truly are!
+                  high levels of Delta 9. These gummies will definitely induce
+                  feelings of being high or spacey, but certainly not bliss.
+                  More importantly, Delta 9 gummies can cause serious negative
+                  side effects, like disorientation and heavy anxiety that can
+                  last for hours. Don&apos;t be fooled, BLISS BOMBS™ are the
+                  real deal, an incomparable explosion of long lasting bliss
+                  with no negative side effects. Why not join thousands of
+                  people everyday who enjoy Bliss Bombs? Find out who your truly
+                  are!
                 </p>
               </div>
             </div>
-            <div>
-              <div className='lg:pl-10'>img</div>
+            <div className='col-span-2'>
+              <div className='lg:pl-10'>
+                <Image
+                  src={SideEffects}
+                  width={600}
+                  alt='No negative side effects'
+                  className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full'
+                />
+              </div>
             </div>
           </div>
         </div>

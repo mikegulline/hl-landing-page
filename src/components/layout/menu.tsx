@@ -16,7 +16,7 @@ export default function Menu() {
             <ul>
               <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
-                  href='/'
+                  href='https://www.hemplandusa.com/shop-cbd/'
                   className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Home
@@ -40,7 +40,7 @@ export default function Menu() {
               </li>
               <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
-                  href='/'
+                  href='https://www.hemplandusa.com/guarantee/'
                   className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Grarantee
@@ -56,7 +56,7 @@ export default function Menu() {
               <li className='hidden md:flex flex-grow'></li>
               <li>
                 <Link
-                  href='/'
+                  href='https://www.hemplandusa.com/contact-us/'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Contact
@@ -64,7 +64,7 @@ export default function Menu() {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='https://www.hemplandusa.com/returns/'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Returns
@@ -72,7 +72,7 @@ export default function Menu() {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='https://www.hemplandusa.com/terms/'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Terms
@@ -80,7 +80,7 @@ export default function Menu() {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='https://www.hemplandusa.com/privacy/'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Privacy
@@ -136,7 +136,7 @@ const MenuToggelButton: FC<Toggle> = ({ open, setOpen }) => (
 const MenuDrawr: FC<ToggleValueWithChildren> = ({ children, open }) => (
   <div className='absolute inset-0 overflow-hidden pointer-events-none'>
     <div
-      className={` pointer-events-auto absolute inset-0 bg-gradient-to-t from-fuchsia-600 to-fuchsia-950 z-20 transition-transform duration-200 ${
+      className={` pointer-events-auto absolute inset-0 bg-gradient-to-t from-fuchsia-800 to-fuchsia-950 z-20 transition-transform duration-200 ${
         open ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
