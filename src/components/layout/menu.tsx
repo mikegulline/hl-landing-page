@@ -24,7 +24,8 @@ export default function Menu() {
               </li>
               <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
-                  href='/'
+                  href='/#buy-now'
+                  onClick={() => setOpen(false)}
                   className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Buy Now
@@ -32,7 +33,8 @@ export default function Menu() {
               </li>
               <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
-                  href='/'
+                  href='/#buy-now'
+                  onClick={() => setOpen(false)}
                   className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Special Offers

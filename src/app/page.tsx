@@ -215,7 +215,7 @@ export default function Home() {
         </div>
       </div>
       <HappyPeople />
-      <div className='bg-[#2e0534] text-center py-4 sm:py-10'>
+      <div className='bg-[#2e0534] text-center py-4 sm:py-10' id='buy-now'>
         <h2 className='font-black text-fuchsia-300 text-4xl sm:text-6xl'>
           BUY BLISS BOMBS™
         </h2>
@@ -226,7 +226,7 @@ export default function Home() {
             <div className='flex flex-col-reverse xl:flex-row items-center relative '>
               <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <div className=' bg-black/60 p-5 md:p-10 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
-                  <p className=''>
+                  <p className='text-lg'>
                     <strong>
                       A one month supply of BLISS BOMBS™ costs $85.00 plus
                       $8.95 for shipping.
@@ -300,7 +300,7 @@ const Offers = () => {
   };
   return (
     <>
-      <div className='rounded-xl overflow-hidden mt-6 border-4 lg:border-8 border-fuchsia-300 border-solid'>
+      <div className='rounded-xl overflow-hidden mt-8 border-4 lg:border-8 border-fuchsia-300 border-solid'>
         <table className='cw-table w-full mb-0'>
           <thead>
             <tr className='border-b border-b-gray-400 border-solid'>
@@ -327,92 +327,70 @@ const Offers = () => {
               className='border-b border-b-gray-400 border-solid group'
               onClick={() => handleClick(1197, 6)}
             >
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
                 6
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                50%
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                45%
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
                 $510
                 <sup className='text-[60%] hidden lg:inline'>.00</sup>
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                $229
+                <sup className='text-[60%] hidden lg:inline'>.50</sup>
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+                $280
+                <sup className='text-[60%] hidden lg:inline'>.50</sup>
+              </td>
+            </tr>
+
+            <tr
+              className='border-b border-b-gray-400 border-solid group'
+              onClick={() => handleClick(1197, 3)}
+            >
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                3
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                25%
+              </td>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
                 $255
                 <sup className='text-[60%] hidden lg:inline'>.00</sup>
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                $255
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                $63
+                <sup className='text-[60%] hidden lg:inline'>.75</sup>
               </td>
-            </tr>
-            <tr
-              className='border-b border-b-gray-400 border-solid group'
-              onClick={() => handleClick(1197, 4)}
-            >
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                4
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                30%
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
-                $340
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                $102
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                $238
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
-              </td>
-            </tr>
-            <tr
-              className='border-b border-b-gray-400 border-solid group'
-              onClick={() => handleClick(1197, 2)}
-            >
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                2
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                20%
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
-                $170
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                $34
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
-              </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                $136
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+                $191
+                <sup className='text-[60%] hidden lg:inline'>.25</sup>
               </td>
             </tr>
             <tr
               className='border-b border-b-gray-400 border-solid group'
               onClick={() => handleClick(1197, 1)}
             >
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
                 1
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                0%
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                10%
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
                 $85
                 <sup className='text-[60%] hidden lg:inline'>.00</sup>
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
-                $0
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
+                $8
+                <sup className='text-[60%] hidden lg:inline'>.50</sup>
               </td>
-              <td className='cursor-pointer pointer-events-auto h-14 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
-                $85
-                <sup className='text-[60%] hidden lg:inline'>.00</sup>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+                $76
+                <sup className='text-[60%] hidden lg:inline'>.50</sup>
               </td>
             </tr>
           </tbody>
