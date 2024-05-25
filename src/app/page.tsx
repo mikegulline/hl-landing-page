@@ -237,13 +237,10 @@ export default function Home() {
             <div className='flex flex-col-reverse xl:flex-row items-center relative '>
               <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <div className=' bg-black/60 p-5 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
-                  <p className='lg:text-lg'>
-                    <strong>
-                      A one month supply of BLISS BOMBS™ costs $85.00 plus
-                      $8.95 for shipping.
-                    </strong>{' '}
-                    A 2 month supply is discounted 20%, 4 months 30%, and 6
-                    months 50%. Plus, discounted orders include free shipping.{' '}
+                  <h3 className='mb-4 text-3xl text-yellow-200 font-black'>
+                    100% Money Back Guarantee
+                  </h3>
+                  <p className='lg:text-xl'>
                     <strong>
                       All orders come with a 100% money back guarantee. No
                       questions asked.
