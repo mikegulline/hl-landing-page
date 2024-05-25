@@ -75,7 +75,7 @@ export default function Home() {
             </div>
             <div className='col-span-4 lg:col-span-3'>
               <div>
-                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
+                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10 lg:mb-0'>
                   HempLand USA® produces BLISS BOMBS™. We&apos;ve been in
                   business since 2014, longer than 99.9% of all hemp companies.
                   Yes, we only use U.S. grown hemp, and yes our manufacturing
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
             <div className='col-span-2'>
               <div className='lg:pl-10'>
-                <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full  overflow-hidden'>
+                <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white    w-full  overflow-hidden'>
                   <Image
                     src={Hemp}
                     width={600}
@@ -131,7 +131,18 @@ export default function Home() {
                     extracts that work with our premium hemp extract to help
                     ensure BLISS BOMBS™ deliver big time.
                   </p>
-                  <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
+                  <div className='lg:hidden rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
+                    <Image
+                      src={Graph}
+                      width={600}
+                      alt='Graph'
+                      className='w-full'
+                    />
+                    <p className='text-sm text-center p-2 pt-3'>
+                      4X more powerful than our closest competitor.
+                    </p>
+                  </div>
+                  <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10 lg:mb-0'>
                     However, please understand that bliss does not mean high or
                     spaced out. The bliss feelings to which we refer are the
                     feelings you experience when BLISS BOMBS™ have naturally
@@ -145,7 +156,7 @@ export default function Home() {
               </div>
               <div className='col-span-2'>
                 <div className='lg:pl-10'>
-                  <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
+                  <div className='hidden lg:block rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
                     <Image
                       src={Graph}
                       width={600}
@@ -191,7 +202,7 @@ export default function Home() {
                     className='w-full'
                   />
                 </div>
-                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
+                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10 lg:mb-0'>
                   Don&apos;t be fooled, BLISS BOMBS™ are the real deal, an
                   incomparable explosion of long lasting bliss with no negative
                   side effects. Why not join thousands of people everyday who
@@ -225,8 +236,8 @@ export default function Home() {
           <div className='px-5'>
             <div className='flex flex-col-reverse xl:flex-row items-center relative '>
               <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
-                <div className=' bg-black/60 p-5 md:p-10 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
-                  <p className='text-lg'>
+                <div className=' bg-black/60 p-5 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
+                  <p className='lg:text-lg'>
                     <strong>
                       A one month supply of BLISS BOMBS™ costs $85.00 plus
                       $8.95 for shipping.
