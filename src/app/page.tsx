@@ -432,7 +432,7 @@ const Offers = () => {
             </li>
           </ul>
           <div className='sm:hidden border-t border-dashed border-fuchsia-950 my-2'></div>
-          <ul className='flex gap-2 items-center justify-center'>
+          <ul className='flex gap-2 items-center justify-between sm:justify-center'>
             <li className=' w-12 h-auto overflow-hidden rounded border border-solid border-[#1b1d74]'>
               <div className='w-48 relative'>
                 <Image src={CC} alt='Credit cards accepted' width={192} />
