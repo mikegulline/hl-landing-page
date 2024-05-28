@@ -422,8 +422,8 @@ const Offers = () => {
         <div className='p-2 bg-white sm:flex justify-between '>
           <ul className='flex justify-center sm:justify-start items-center gap-2'>
             <li>
-              <div className='w-6 h-6 sm:w-8 sm:h-8 border border-solid border-green-700 bg-green-100 rounded-full flex justify-center items-center'>
-                <FcLock className=' relative sm:scale-125' />
+              <div className=' w-8 h-8 border border-solid border-green-700 bg-green-100 rounded-full flex justify-center items-center'>
+                <FcLock className='scale-125' />
               </div>
             </li>
             <li className='text-black text-xs leading-tight font-bold'>
