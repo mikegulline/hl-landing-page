@@ -53,19 +53,13 @@ export default function Footer() {
         <div className='container mx-auto'>
           <div className='p-5 text-sm'>
             <div className='max-w-screen-lg mx-auto'>
-              <p className=' text-black p-2 font-medium leading-none bg-white border-2 border-solid border-black mb-2'>
+              <p className=' text-black p-2 font-medium leading-none bg-white border-2 border-solid border-black'>
                 *All information contained within this site is for reference
                 purposes only and are not intended to substitute the advice
                 given by a pharmacist, physician, or any other licensed
                 health-care professional. These statements have not been
                 evaluated by the Food and Drug Administration. This product is
                 not intended to diagnose, treat, cure, or prevent any disease.
-              </p>
-              <p>
-                <strong>CornBread®</strong> is a registered trademark.
-              </p>
-              <p>
-                <strong>Cruise Chews®</strong> is a registered trademark.
               </p>
             </div>
           </div>
