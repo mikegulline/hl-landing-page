@@ -423,10 +423,10 @@ const Offers = () => {
           </tbody>
         </table>
         <div className='p-2 bg-white sm:flex justify-between '>
-          <ul className='flex justify-center sm:justify-start items-center gap-2 mb-4 sm:mb-0'>
+          <ul className='flex justify-center sm:justify-start items-center gap-2 mb-2 sm:mb-0'>
             <li>
-              <div className='w-10 h-10 border border-solid border-green-700 bg-green-100 rounded-full flex justify-center items-center'>
-                <FcLock className=' scale-150' />
+              <div className='w-6 h-6 sm:w-10 sm:h-10 border border-solid border-green-700 bg-green-100 rounded-full flex justify-center items-center'>
+                <FcLock className=' relative sm:scale-150' />
               </div>
             </li>
             <li className='text-black text-sm'>Safe and secure checkout</li>
