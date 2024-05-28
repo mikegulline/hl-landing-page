@@ -394,7 +394,7 @@ const Offers = () => {
           </tbody>
         </table>
         <div className='p-2 bg-white sm:flex justify-between '>
-          <ul className='flex justify-start items-center gap-2 mb-4 sm:mb-0'>
+          <ul className='flex justify-center sm:justify-start items-center gap-2 mb-4 sm:mb-0'>
             <li>
               <div className='w-10 h-10 border border-solid border-green-700 bg-green-100 rounded-full flex justify-center items-center'>
                 <FcLock className=' scale-150' />
@@ -402,7 +402,7 @@ const Offers = () => {
             </li>
             <li className='text-black text-sm'>Safe and secure checkout</li>
           </ul>
-          <ul className='flex gap-2 items-center justify-start'>
+          <ul className='flex gap-2 items-center justify-center'>
             <li className=' w-12 h-auto overflow-hidden rounded border border-solid border-[#1b1d74]'>
               <div className='w-48 relative'>
                 <Image src={CC} alt='Credit cards accepted' width={192} />
