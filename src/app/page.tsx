@@ -246,7 +246,7 @@ export default function Home() {
               <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <div className=' bg-black/60 p-5 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
                   <h3
-                    className='mb-4 text-xl md:text-3xl 2xl:text-4xl text-yellow-200 font-black'
+                    className='mb-4 text-2xl md:text-3xl 2xl:text-4xl text-yellow-200 font-black'
                     id='buy-now'
                   >
                     100% Money Back Guarantee
