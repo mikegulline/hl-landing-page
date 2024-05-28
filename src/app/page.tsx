@@ -257,7 +257,7 @@ export default function Home() {
                       <em>No questions asked.</em>
                     </strong>
                   </p>
-                  <p className='2xl:text-xl'>
+                  <p className=''>
                     <strong className='text-yellow-200'>
                       PLUS FREE SHIPPING:
                     </strong>{' '}
@@ -277,7 +277,7 @@ export default function Home() {
                     alt='Explosion'
                     className=''
                   />
-                  <div className='hidden xl:block bg-gradient-to-l from-transparent to-fuchsia-950  absolute top-0 left-0 bottom-0 w-48 xl:w-80 '></div>
+                  <div className='sm:hidden xl:block bg-gradient-to-l from-transparent to-fuchsia-950  absolute top-0 left-0 bottom-0 w-48 xl:w-80 '></div>
                 </div>
                 <span className='mx-auto block relative max-w-60 sm:max-w-40 md:max-w-48 lg:max-w-80  xl:max-w-96 2xl:max-w-96'>
                   <div className='flex justify-center items-center'>
