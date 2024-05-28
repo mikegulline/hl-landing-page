@@ -236,7 +236,7 @@ export default function Home() {
       <HappyPeople />
       <div className='bg-[#2e0534] text-center py-4 sm:py-10'>
         <h2
-          className='font-black text-fuchsia-300 text-4xl sm:text-6xl'
+          className='font-black text-yellow-200 text-4xl sm:text-6xl'
           id='buy-now'
         >
           BUY BLISS BOMBS™
@@ -357,7 +357,7 @@ const Offers = () => {
               <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
                 45%
               </td>
-              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-yellow-200 group-hover:bg-gray-800'>
                 $510
                 <sup className='text-[60%] hidden lg:inline'>.00</sup>
               </td>
@@ -365,7 +365,7 @@ const Offers = () => {
                 $229
                 <sup className='text-[60%] hidden lg:inline'>.50</sup>
               </td>
-              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
                 $280
                 <sup className='text-[60%] hidden lg:inline'>.50</sup>
               </td>
@@ -381,7 +381,7 @@ const Offers = () => {
               <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
                 25%
               </td>
-              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-yellow-200 group-hover:bg-gray-800'>
                 $255
                 <sup className='text-[60%] hidden lg:inline'>.00</sup>
               </td>
@@ -389,7 +389,7 @@ const Offers = () => {
                 $63
                 <sup className='text-[60%] hidden lg:inline'>.75</sup>
               </td>
-              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
                 $191
                 <sup className='text-[60%] hidden lg:inline'>.25</sup>
               </td>
@@ -404,7 +404,7 @@ const Offers = () => {
               <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-white group-hover:bg-gray-800'>
                 10%
               </td>
-              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-fuchsia-300 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-r-gray-700 border-solid border-r text-yellow-200 group-hover:bg-gray-800'>
                 $85
                 <sup className='text-[60%] hidden lg:inline'>.00</sup>
               </td>
@@ -412,7 +412,7 @@ const Offers = () => {
                 $8
                 <sup className='text-[60%] hidden lg:inline'>.50</sup>
               </td>
-              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-yellow-200 group-hover:bg-gray-800'>
+              <td className='cursor-pointer pointer-events-auto h-16 font-black text-xl lg:text-3xl border-0 text-center bg-black border-solid text-fuchsia-300 group-hover:bg-gray-800'>
                 $76
                 <sup className='text-[60%] hidden lg:inline'>.50</sup>
               </td>
@@ -426,7 +426,10 @@ const Offers = () => {
                 <FcLock className=' relative sm:scale-125' />
               </div>
             </li>
-            <li className='text-black text-sm'>Safe and secure checkout</li>
+            <li className='text-black text-xs leading-tight font-bold'>
+              <p>Safe and secure checkout</p>
+              <p>100% Guaranteed</p>
+            </li>
           </ul>
           <div className='sm:hidden border-t border-dashed border-fuchsia-950 my-2'></div>
           <ul className='flex gap-2 items-center justify-center'>
