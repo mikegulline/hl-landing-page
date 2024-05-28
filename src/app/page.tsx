@@ -237,7 +237,7 @@ export default function Home() {
         </div>
       </div>
       <HappyPeople />
-      <div className='bg-[#2e0534] text-center py-4 sm:py-10' id='buy-now'>
+      <div className='bg-[#2e0534] text-center py-4 sm:py-10'>
         <h2 className='font-black text-fuchsia-300 text-4xl sm:text-6xl'>
           BUY BLISS BOMBS™
         </h2>
@@ -248,18 +248,26 @@ export default function Home() {
             <div className='flex flex-col-reverse xl:flex-row items-center relative '>
               <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <div className=' bg-black/60 p-5 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
-                  <h3 className='mb-4 text-3xl text-yellow-200 font-black'>
+                  <h3
+                    className='mb-4 text-xl md:text-3xl 2xl:text-4xl text-yellow-200 font-black'
+                    id='buy-now'
+                  >
                     100% Money Back Guarantee
                   </h3>
-                  <p className='lg:text-xl'>
+                  <p className='md:text-xl 2xl:text-3xl mb-4'>
                     <strong>
-                      All orders come with a 100% money back guarantee. No
-                      questions asked.
+                      All orders come with a 100% money back guarantee.{' '}
+                      <em>No questions asked.</em>
+                    </strong>
+                  </p>
+                  <p className='2xl:text-xl'>
+                    <strong className='text-yellow-200'>
+                      PLUS FREE SHIPPING:
                     </strong>{' '}
                     <u>
-                      Click on one of the offers below to apply your savings now
+                      Order right now and get FREE Shipping{' '}
+                      <em>($8.95 value)</em>!
                     </u>
-                    .{' '}
                   </p>
                 </div>
                 <Offers />
