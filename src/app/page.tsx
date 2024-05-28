@@ -14,6 +14,9 @@ import HappyWoman1 from '../../public/images/happy-woman-01.png';
 import HappyWoman2 from '../../public/images/happy-woman-02.png';
 import HappyWoman3 from '../../public/images/happy-woman-03.png';
 import HappyWoman4 from '../../public/images/happy-woman-04.png';
+import Hippy from '../../public/images/happy-hippy.png';
+import CC from '../../public/images/cc.png';
+import { FcLock } from 'react-icons/fc';
 
 export default function Home() {
   return (
@@ -143,14 +146,13 @@ export default function Home() {
                     </p>
                   </div>
                   <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10 lg:mb-0'>
-                    However, please understand that bliss does not mean high or
+                    However, please understand that blissed out does not mean
                     spaced out. The bliss feelings to which we refer are the
-                    feelings you experience when BLISS BOMBS™ have naturally
+                    feelings you experience when Bliss Bombs™ have naturally
                     helped balance both your body and mind, the feeling of being
                     amazingly relaxed and totally clear, the feeling of absolute
-                    well being, the feeling of indescribable happiness. Bliss is
-                    your true nature, a far better and more profound experience
-                    than just being high.
+                    well being, the feeling of indescribable happiness, your
+                    true nature.
                   </p>
                 </div>
               </div>
@@ -188,25 +190,13 @@ export default function Home() {
               <div>
                 <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
                   The latest craze is for hemp gummies to contain artificially
-                  high levels of Delta 9. These gummies will definitely induce
-                  feelings of being high or spacey, but certainly not bliss.
-                  More importantly, Delta 9 gummies can cause serious negative
-                  side effects, like disorientation and heavy anxiety that can
-                  last for hours.{' '}
-                </p>
-                <div className='lg:hidden rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
-                  <Image
-                    src={SideEffects}
-                    width={600}
-                    alt='No negative side effects'
-                    className='w-full'
-                  />
-                </div>
-                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10 lg:mb-0'>
-                  Don&apos;t be fooled, BLISS BOMBS™ are the real deal, an
+                  high (spiked) levels of Delta 9, anything above 3mg, which may
+                  cause unpleasant side effects, like disorientation (spaced
+                  out) and heavy anxiety that can last for hours. Why take a
+                  chance? Unadulterated BLISS BOMBS™ are the real deal, an
                   incomparable explosion of long lasting bliss with no negative
-                  side effects. Why not join thousands of people everyday who
-                  enjoy Bliss Bombs? Find out who you truly are!
+                  side effects. Join thousands of people everyday who enjoy
+                  Bliss Bombs! Find out who you truly are!
                 </p>
               </div>
             </div>
@@ -214,7 +204,7 @@ export default function Home() {
               <div className='lg:pl-10'>
                 <div className='hidden lg:block rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
                   <Image
-                    src={SideEffects}
+                    src={Hippy}
                     width={600}
                     alt='No negative side effects'
                     className='w-full'
@@ -403,14 +393,38 @@ const Offers = () => {
             </tr>
           </tbody>
         </table>
-        <p className='text-xs text-black p-2 font-medium leading-none bg-white'>
-          *All information contained within this site is for reference purposes
-          only and are not intended to substitute the advice given by a
-          pharmacist, physician, or any other licensed health-care professional.
-          These statements have not been evaluated by the Food and Drug
-          Administration. This product is not intended to diagnose, treat, cure,
-          or prevent any disease.
-        </p>
+        <div className='p-2 bg-white sm:flex justify-between '>
+          <ul className='flex justify-start items-center gap-2 mb-4 sm:mb-0'>
+            <li>
+              <div className='w-10 h-10 border border-solid border-green-700 bg-green-100 rounded-full flex justify-center items-center'>
+                <FcLock className=' scale-150' />
+              </div>
+            </li>
+            <li className='text-black text-sm'>Safe and secure checkout</li>
+          </ul>
+          <ul className='flex gap-2 items-center justify-start'>
+            <li className=' w-12 h-auto overflow-hidden rounded border border-solid border-[#1b1d74]'>
+              <div className='w-48 relative'>
+                <Image src={CC} alt='Credit cards accepted' width={192} />
+              </div>
+            </li>
+            <li className=' w-12 h-auto overflow-hidden rounded border border-solid border-[#eb001b]'>
+              <div className='w-48 relative -left-12'>
+                <Image src={CC} alt='Credit cards accepted' width={192} />
+              </div>
+            </li>
+            <li className=' w-12 h-auto overflow-hidden rounded border border-solid border-[#016fd0]'>
+              <div className='w-48 relative -left-24'>
+                <Image src={CC} alt='Credit cards accepted' width={192} />
+              </div>
+            </li>
+            <li className=' w-12 h-auto overflow-hidden rounded border border-solid border-[#ef7622]'>
+              <div className='w-48 relative -left-36'>
+                <Image src={CC} alt='Credit cards accepted' width={192} />
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
