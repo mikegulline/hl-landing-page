@@ -15,8 +15,11 @@ import HappyWoman2 from '../../public/images/happy-woman-02.png';
 import HappyWoman3 from '../../public/images/happy-woman-03.png';
 import HappyWoman4 from '../../public/images/happy-woman-04.png';
 import Hippy from '../../public/images/happy-hippy.png';
+import YoungWoman from '../../public/images/young-woman.png';
 import CC from '../../public/images/cc.png';
 import { FcLock } from 'react-icons/fc';
+import { FcOk } from 'react-icons/fc';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -78,7 +81,7 @@ export default function Home() {
             </div>
             <div className='col-span-4 lg:col-span-3'>
               <div>
-                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10 lg:mb-0'>
+                <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
                   HempLand USA® produces BLISS BOMBS™. We&apos;ve been in
                   business since 2014, longer than 99.9% of all hemp companies.
                   Yes, we only use U.S. grown hemp, and yes our manufacturing
@@ -93,6 +96,8 @@ export default function Home() {
                     PERIOD.
                   </span>
                 </p>
+
+                <BuyButton />
               </div>
             </div>
             <div className='col-span-2'>
@@ -145,7 +150,7 @@ export default function Home() {
                       4X more powerful than our closest competitor.
                     </p>
                   </div>
-                  <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10 lg:mb-0'>
+                  <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
                     However, please understand that blissed out does not mean
                     spaced out. The bliss feelings to which we refer are the
                     feelings you experience when Bliss Bombs™ have naturally
@@ -154,6 +159,20 @@ export default function Home() {
                     well being, the feeling of indescribable happiness, your
                     true nature.
                   </p>
+
+                  <BuyButton />
+
+                  <div className='lg:hidden rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white w-full overflow-hidden'>
+                    <Image
+                      src={YoungWoman}
+                      width={600}
+                      alt='Young woman'
+                      className='w-full'
+                    />
+                    <p className='text-sm text-center p-2 pt-3'>
+                      4X more powerful than our closest competitor.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className='col-span-2'>
@@ -198,11 +217,13 @@ export default function Home() {
                   side effects. Join thousands of people everyday who enjoy
                   Bliss Bombs! Find out who you truly are!
                 </p>
+
+                <BuyButton />
               </div>
             </div>
             <div className='col-span-2'>
               <div className='lg:pl-10'>
-                <div className='hidden lg:block rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
+                <div className='rounded-xl shadow-2xl shadow-[#8e6595] border-4 border-solid border-white  mb-10  w-full overflow-hidden'>
                   <Image
                     src={Hippy}
                     width={600}
@@ -463,3 +484,25 @@ const FloatingGummies = () => {
     </>
   );
 };
+
+const BuyButton = () => (
+  <div className=' inline-block mb-10 lg:mb-0'>
+    <Link
+      href='/#buy-now'
+      className='flex items-center bg-gradient-to-t from-fuchsia-600/50 to-fuchsia-100 rounded-full  border-2 border-solid border-fuchsia-800 relative py-1 shadow-lg shadow-[#8e6595]/50 '
+    >
+      <div className=' text-5xl -left-1 rounded-full p-2 border-4 border-solid border-fuchsia-800 bg-gradient-to-t from-green-200 to-white absolute shadow-lg shadow-[#8e6595]/50'>
+        <FcLock />
+      </div>
+      <div className='flex flex-col justify-center pl-20 pr-8 '>
+        <div className='font-black text-2xl text-left'>Buy Bliss Bombs™</div>
+        <div className='flex items-center gap-1'>
+          <div className='w-5 h-5 border border-solid border-fuchsia-800 bg-white rounded-full flex justify-center items-center'>
+            <FcOk />
+          </div>
+          <p className='text-xs'>Safe and secure checkout</p>
+        </div>
+      </div>
+    </Link>
+  </div>
+);
