@@ -169,9 +169,6 @@ export default function Home() {
                       alt='Young woman'
                       className='w-full'
                     />
-                    <p className='text-sm text-center p-2 pt-3'>
-                      4X more powerful than our closest competitor.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -473,7 +470,7 @@ const FloatingGummies = () => {
       </div>
 
       <div className='floating absolute top-[20%] -left-[15%]  w-[35%] '>
-        <div className='wiggle2 flex justify-center items-center relative'>
+        <div className='wiggle flex justify-center items-center relative'>
           <Image src={Gummy} width={150} height={100} alt='Gummy' />
           <div className='font-black text-white absolute text-3xl  scale-[0.6] sm:scale-[0.5] lg:scale-[0.6] xl:scale-[0.75] 2xl:scale-[0.9]'>
             135mg
