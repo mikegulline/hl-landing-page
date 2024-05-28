@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Logo() {
   return (
     <Link
-      href='https://www.hemplandusa.com/'
+      href='https://www.hemplandusa.com/?utm_source=landing-page&utm_campaign=tictok&utm_content=HeaderLogo'
       title='HempLand® USA'
       className='site-logo'
     >

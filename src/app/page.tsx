@@ -235,7 +235,10 @@ export default function Home() {
       </div>
       <HappyPeople />
       <div className='bg-[#2e0534] text-center py-4 sm:py-10'>
-        <h2 className='font-black text-fuchsia-300 text-4xl sm:text-6xl'>
+        <h2
+          className='font-black text-fuchsia-300 text-4xl sm:text-6xl'
+          id='buy-now'
+        >
           BUY BLISS BOMBS™
         </h2>
       </div>
@@ -245,10 +248,7 @@ export default function Home() {
             <div className='flex flex-col-reverse xl:flex-row items-center relative '>
               <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
                 <div className=' bg-black/60 p-5 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
-                  <h3
-                    className='mb-4 text-3xl 2xl:text-4xl text-yellow-200 font-black'
-                    id='buy-now'
-                  >
+                  <h3 className='mb-4 text-3xl 2xl:text-4xl text-yellow-200 font-black'>
                     100% Money Back Guarantee
                   </h3>
                   <p className='md:text-xl 2xl:text-3xl mb-4'>
@@ -319,7 +319,7 @@ const HappyPeople = () => {
 const Offers = () => {
   const handleClick = (id: number, count: number) => {
     const link = window.location.replace(
-      `https://www.hemplandusa.com/cart/?fill_cart=${count}x${id}`
+      `https://www.hemplandusa.com/cart/?fill_cart=${count}x${id}&utm_source=landing-page&utm_campaign=tictok&utm_content=BuyNow-${count}&apply_coupon=tictok45,tictok25,tictok10`
     );
   };
   return (

@@ -16,7 +16,7 @@ export default function Menu() {
             <ul>
               <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
-                  href='https://www.hemplandusa.com/shop-cbd/'
+                  href='https://www.hemplandusa.com/shop-cbd/?utm_source=landing-page&utm_campaign=tictok&utm_content=MenuHome'
                   className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Home
@@ -42,7 +42,7 @@ export default function Menu() {
               </li>
               <li className='border-b-4 border-fuchsia-300 border-solid'>
                 <Link
-                  href='https://www.hemplandusa.com/guarantee/'
+                  href='/#buy-now'
                   className='text-white text-4xl md:text-5xl xl:text-6xl block py-6 2xl:py-8 uppercase font-black hover:text-fuchsia-400'
                 >
                   Grarantee
@@ -58,7 +58,7 @@ export default function Menu() {
               <li className='hidden md:flex flex-grow'></li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/contact-us/'
+                  href='https://www.hemplandusa.com/contact-us/?utm_source=landing-page&utm_campaign=tictok&utm_content=MenuContact'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Contact
@@ -66,7 +66,7 @@ export default function Menu() {
               </li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/returns/'
+                  href='https://www.hemplandusa.com/returns/?utm_source=landing-page&utm_campaign=tictok&utm_content=MenuReturns'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Returns
@@ -74,7 +74,7 @@ export default function Menu() {
               </li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/terms/'
+                  href='https://www.hemplandusa.com/terms/?utm_source=landing-page&utm_campaign=tictok&utm_content=MenuTerms'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Terms
@@ -82,7 +82,7 @@ export default function Menu() {
               </li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/privacy/'
+                  href='https://www.hemplandusa.com/privacy/?utm_source=landing-page&utm_campaign=tictok&utm_content=MenuPrivacy'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Privacy

@@ -15,7 +15,7 @@ export default function Footer() {
               <li className='hidden md:flex flex-grow'></li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/contact-us/'
+                  href='https://www.hemplandusa.com/contact-us/?utm_source=landing-page&utm_campaign=tictok&utm_content=FooterContact'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Contact
@@ -23,7 +23,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/returns/'
+                  href='https://www.hemplandusa.com/returns/?utm_source=landing-page&utm_campaign=tictok&utm_content=FooterReturns'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Returns
@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/terms/'
+                  href='https://www.hemplandusa.com/terms/?utm_source=landing-page&utm_campaign=tictok&utm_content=FooterTerms'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Terms
@@ -39,7 +39,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://www.hemplandusa.com/privacy/'
+                  href='https://www.hemplandusa.com/privacy/?utm_source=landing-page&utm_campaign=tictok&utm_content=FooterPrivacy'
                   className=' text-white font-light block underline hover:text-fuchsia-400'
                 >
                   Privacy
