@@ -481,12 +481,6 @@ interface IOffer {
   price: number;
 }
 const Offer = ({ count, price }: IOffer) => {
-  const handleClick = () => {
-    window.location.replace(
-      `https://www.hemplandusa.com/cart/?fill_cart=${count}x1197&utm_source=landing-page&utm_campaign=tictok&utm_content=BuyNow-${count}&apply_coupon=tictok45,tictok25,tictok10`
-    );
-  };
-
   const regularPrice = 85;
   const youSave = regularPrice * count - price * count;
   const stickerStyles =
@@ -531,13 +525,13 @@ const Offer = ({ count, price }: IOffer) => {
               <br />
               <em>($8.95 value)</em>
             </p>
-            <button
-              onClick={handleClick}
+            <Link
+              href={`https://www.hemplandusa.com/cart/?fill_cart=${count}x1197&utm_source=landing-page&utm_campaign=tictok&utm_content=BuyNow-${count}&apply_coupon=tictok45,tictok25,tictok10`}
               id={`add-to-cart-${count}`}
               className='border-4 border-solid text-white border-fuchsia-400 bg-gradient-to-t  hover:border-fuchsia-300 from-fuchsia-900 hover:text-yellow-200 to-fuchsia-500 rounded-full mx-auto px-5 py-1 flex items-center justify-center font-medium text-2xl my-2'
             >
               <span>Buy Now</span>
-            </button>
+            </Link>
             <CreditCards />
           </div>
         </div>
