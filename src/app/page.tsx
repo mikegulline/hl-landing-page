@@ -494,13 +494,13 @@ const Offer = ({ count, price }: IOffer) => {
       ? `bg-fuchsia-700 border-fuchsia-400 shadow-fuchsia-900/50`
       : `bg-gray-700 border-gray-400 shadow-gray-900/50`;
   return (
-    <div className='rounded-xl overflow-hidden border-4 lg:border-8 border-fuchsia-300 border-solid bg-white text-black'>
+    <div className='rounded-xl  border-4 lg:border-8 border-fuchsia-300 border-solid bg-white text-black'>
       <h3 className='text-2xl xl:text-3xl font-black text-center bg-fuchsia-100 text-fuchsia-900 py-2 border-b border-dashed border-fuchsia-800'>
         Buy {count} Bottle{count > 1 && 's'}
       </h3>
       <div className='p-2'>
         <div className='flex items-center'>
-          <div className='flex items-center justify-center min-w-48'>
+          <div className='flex items-center justify-center min-w-32 sm:min-w-48'>
             <div className='relative mx-auto'>
               <Image
                 src={Product}
