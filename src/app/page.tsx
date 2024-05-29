@@ -498,13 +498,13 @@ const Offer = ({ count, price }: IOffer) => {
       <h3 className='text-2xl xl:text-3xl font-black text-center bg-fuchsia-100 text-fuchsia-900 py-2 border-b border-dashed border-fuchsia-800'>
         Buy {count} Bottle{count > 1 && 's'}
       </h3>
-      <div className='p-2'>
+      <div className='p-2 2xl:p-4'>
         <div className='flex items-center'>
-          <div className='flex items-center justify-center min-w-32 sm:min-w-48'>
+          <div className='flex items-center justify-center min-w-32 sm:min-w-44 2xl:min-w-56'>
             <div className='relative mx-auto'>
               <Image
                 src={Product}
-                width={100}
+                width={120}
                 alt='Bliss Bombs'
                 className='mx-auto'
               />
