@@ -39,9 +39,9 @@ export default function Privacy() {
                 recipients is not used for marketing purposes.
               </li>
               <li>
-                Like many websites, we use “cookies” to enhance your experience
+                Like many websites, we use "cookies" to enhance your experience
                 and gather information about visitors and visits to our
-                websites. Please refer to the “Do we use 'cookies'?” section
+                websites. Please refer to the "Do we use 'cookies'?" section
                 below for information about cookies and how we use them.
               </li>
             </ul>
@@ -77,9 +77,9 @@ export default function Privacy() {
               <li>
                 If you have opted-in to receive our e-mail newsletter, we may
                 send you periodic e-mails. If you would no longer like to
-                receive promotional e-mail from us, please refer to the “How can
+                receive promotional e-mail from us, please refer to the "How can
                 you opt-out, remove or modify information you have provided to
-                us?” section below. If you have not opted-in to receive e-mail
+                us?" section below. If you have not opted-in to receive e-mail
                 newsletters, you will not receive these e-mails. Visitors who
                 register or participate in other site features such as marketing
                 programs and 'members-only' content will be given a choice
@@ -165,8 +165,8 @@ export default function Privacy() {
               We are dedicated to maintaining your privacy which is why we do
               not sell, trade, or otherwise transfer to outside parties your
               personally identifiable information unless we provide you with
-              advance notice, except as described below. The term “outside
-              parties” does not include HempLand® USA. It also does not include
+              advance notice, except as described below. The term "outside
+              parties" does not include HempLand® USA. It also does not include
               website hosting partners and other parties who assist us in
               operating our website, conducting our business, or servicing you
               in purchasing our products or in helping to build a healthy immune
@@ -188,14 +188,14 @@ export default function Privacy() {
 
             <p className='mb-4'>
               To modify your e-mail subscriptions, please let us know by
-              modifying your preferences in the “My Account” section. Please
+              modifying your preferences in the "My Account" section. Please
               note that due to email production schedules you may receive any
               emails already in production.
             </p>
 
             <p>
               To delete all of your online account information from our
-              database, sign into the “My Account” section of our site and
+              database, sign into the "My Account" section of our site and
               remove your shipping addresses, billing addresses & payment
               information. Please note that we may maintain information about an
               individual sales transaction in order to service that transaction

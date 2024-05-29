@@ -149,7 +149,7 @@ export default function Trems() {
               to the site (including but not limited to the purchase of
               www.hemplandusa.com products) must be commenced within one (1)
               year after the claim or cause of action arises.
-              www.hemplandusa.com’s failure to insist upon or enforce strict
+              www.hemplandusa.com's failure to insist upon or enforce strict
               performance of any provision of these terms and conditions shall
               not be construed as a waiver of any provision or right. Neither
               the course of conduct between the parties nor trade practice shall
@@ -210,7 +210,7 @@ export default function Trems() {
               www.hemplandusa.com, its officers, directors, employees, agents,
               licensors and suppliers (collectively the “Service Providers”)
               from and against all losses, expenses, damages and costs,
-              including reasonable attorneys’ fees, resulting from any violation
+              including reasonable attorneys' fees, resulting from any violation
               of these terms and conditions or any activity related to your
               account (including negligent or wrongful conduct) by you or any
               other person accessing the site using your Internet account.
