@@ -40,6 +40,21 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
         </div>
+        <Script
+          async
+          data-id='101454752'
+          src='//static.getclicky.com/js'
+        ></Script>
+        <noscript>
+          <p>
+            <img
+              alt='Clicky'
+              width='1'
+              height='1'
+              src='//in.getclicky.com/101454752ns.gif'
+            />
+          </p>
+        </noscript>
       </body>
     </html>
   );
