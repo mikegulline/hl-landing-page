@@ -533,6 +533,7 @@ const Offer = ({ count, price }: IOffer) => {
             </p>
             <button
               onClick={handleClick}
+              id={`add-to-cart-${count}`}
               className='border-4 border-solid text-white border-fuchsia-400 bg-gradient-to-t  hover:border-fuchsia-300 from-fuchsia-900 hover:text-yellow-200 to-fuchsia-500 rounded-full mx-auto px-5 py-1 flex items-center justify-center font-medium text-2xl my-2'
             >
               <span>Buy Now</span>
