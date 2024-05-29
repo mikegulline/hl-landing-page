@@ -15,6 +15,7 @@ import HappyWoman2 from '../../public/images/happy-woman-02.png';
 import HappyWoman3 from '../../public/images/happy-woman-03.png';
 import HappyWoman4 from '../../public/images/happy-woman-04.png';
 import Hippy from '../../public/images/happy-hippy.png';
+import TestBack from '../../public/images/testback.jpg';
 import YoungWoman from '../../public/images/young-woman.png';
 import CC from '../../public/images/cc.png';
 import { FcLock } from 'react-icons/fc';
@@ -206,13 +207,13 @@ export default function Home() {
               <div>
                 <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
                   The latest craze is for hemp gummies to contain artificially
-                  high (spiked) levels of Delta 9, anything above 3mg, which may
-                  cause unpleasant side effects, like disorientation (spaced
-                  out) and heavy anxiety that can last for hours. Why take a
-                  chance? Unadulterated BLISS BOMBS™ are the real deal, an
-                  incomparable explosion of long lasting bliss with no negative
-                  side effects. Join thousands of people everyday who enjoy
-                  Bliss Bombs! Find out who you truly are!
+                  high (spiked) levels of Delta 9, above 3mg, which may cause
+                  unpleasant side effects, like disorientation (spaced out) and
+                  heavy anxiety that can last for hours. Why take a chance?
+                  BLISS BOMBS™ are the real deal, an incomparable explosion of
+                  long lasting bliss with no negative side effects. Join
+                  thousands of people everyday who enjoy Bliss Bombs! Find out
+                  who you truly are!
                 </p>
 
                 <BuyButton />
@@ -236,67 +237,13 @@ export default function Home() {
       <HappyPeople />
       <div className='bg-[#2e0534] text-center py-4 sm:py-10'>
         <h2
-          className='font-black text-yellow-200 text-4xl sm:text-6xl'
+          className='font-black text-fuchsia-300 text-4xl sm:text-6xl'
           id='buy-now'
         >
           BUY BLISS BOMBS™
         </h2>
       </div>
-      <div className='background bg-fuchsia-950 text-white overflow-hidden'>
-        <div className='container mx-auto py-10 lg:py-32'>
-          <div className='px-5'>
-            <div className='flex flex-col-reverse xl:flex-row items-center relative '>
-              <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
-                <div className=' bg-black/60 p-5 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
-                  <h3 className='mb-4 text-3xl 2xl:text-4xl text-yellow-200 font-black'>
-                    100% Money Back Guarantee
-                  </h3>
-                  <p className='md:text-xl 2xl:text-3xl mb-4'>
-                    <strong>
-                      All orders come with a 100% money back guarantee.{' '}
-                      <em>No questions asked.</em>
-                    </strong>
-                  </p>
-                  <p className=''>
-                    <strong className='text-yellow-200'>
-                      PLUS FREE SHIPPING:
-                    </strong>{' '}
-                    <u>
-                      Order right now and get FREE Shipping{' '}
-                      <em>($8.95 value)</em>!
-                    </u>
-                  </p>
-                </div>
-                <Offers />
-              </div>
-              <div className='w-full relative z-0'>
-                <div className='absolute flex inset-0 items-center justify-center scale-[250%]  sm:scale-[225%] -rotate-90 xl:rotate-0'>
-                  <Image
-                    src={Explosion}
-                    width={2000}
-                    alt='Explosion'
-                    className=''
-                  />
-                  <div className='sm:hidden xl:block bg-gradient-to-l from-transparent to-fuchsia-950  absolute top-0 left-0 bottom-0 w-48 xl:w-80 '></div>
-                </div>
-                <span className='mx-auto block relative max-w-60 sm:max-w-40 md:max-w-48 lg:max-w-80  xl:max-w-96 2xl:max-w-96'>
-                  <div className='flex justify-center items-center'>
-                    <div className=' w-full h-full bg-black shadow-[0_0_100px_25px_rgba(0,0,0,0.9)] absolute rounded-3xl scale-95'></div>
-                    <Image
-                      src={Product}
-                      width={400}
-                      height={100}
-                      alt='Bliss Bombs Gummies'
-                      className='relative'
-                    />
-                  </div>
-                  <FloatingGummies />
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <OffersAlt />
     </>
   );
 }
@@ -494,6 +441,148 @@ const FloatingGummies = () => {
   );
 };
 
+const OffersAlt = () => {
+  return (
+    <>
+      <div className='background  text-white overflow-hidden relative bg-fuchsia-950'>
+        <div className='container mx-auto py-10 lg:py-20'>
+          <div className='text-center max-w-screen-md mx-auto mb-10'>
+            <h3 className='mb-4 text-3xl 2xl:text-4xl text-yellow-200 font-black'>
+              100% Money Back Guarantee
+            </h3>
+            <p className='md:text-xl 2xl:text-3xl mb-4'>
+              <strong>
+                All orders come with a 100% money back guarantee.{' '}
+                <em>No questions asked.</em>
+              </strong>
+            </p>
+            <p className=''>
+              <strong className='text-yellow-200'>PLUS FREE SHIPPING:</strong>{' '}
+              <u>
+                Order right now and get FREE Shipping <em>($8.95 value)</em>!
+              </u>
+            </p>
+          </div>
+          <div className='px-5'>
+            <div className='max-w-96 xl:max-w-none mx-auto flex flex-col xl:grid grid-cols-3 gap-10'>
+              <Offer count={6} price={40} />
+              <Offer count={3} price={60} />
+              <Offer count={1} price={75} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+interface IOffer {
+  count: number;
+  price: number;
+}
+const Offer = ({ count, price }: IOffer) => {
+  const handleClick = () => {
+    window.location.replace(
+      `https://www.hemplandusa.com/cart/?fill_cart=${count}x1197&utm_source=landing-page&utm_campaign=tictok&utm_content=BuyNow-${count}&apply_coupon=tictok45,tictok25,tictok10`
+    );
+  };
+
+  const regularPrice = 85;
+  const youSave = regularPrice * count - price * count;
+  const stickerStyles =
+    youSave > 100
+      ? `bg-fuchsia-700 border-fuchsia-400 shadow-fuchsia-900/50`
+      : `bg-gray-700 border-gray-400 shadow-gray-900/50`;
+  return (
+    <div className='rounded-xl overflow-hidden border-4 lg:border-8 border-fuchsia-300 border-solid bg-white text-black'>
+      <h3 className='text-2xl xl:text-3xl font-black text-center bg-fuchsia-100 text-fuchsia-900 py-2 border-b border-dashed border-fuchsia-800'>
+        Buy {count} Bottle{count > 1 && 's'}
+      </h3>
+      <div className='p-2'>
+        <div className='flex items-center'>
+          <div className='flex items-center justify-center min-w-48'>
+            <div className='relative mx-auto'>
+              <Image
+                src={Product}
+                width={100}
+                alt='Bliss Bombs'
+                className='mx-auto'
+              />
+              <div className='w-10 h-10 flex justify-center items-center border-2 border-solid border-gray-400 bg-gray-700 text-white font-bold rounded-full absolute -bottom-3 -right-3 shadow-md  shadow-gray-900/50'>
+                x{count}
+              </div>
+              <div
+                className={`w-20 h-20 flex flex-col  border-4 border-solid text-white  rounded-full absolute -top-6 -left-10  items-center justify-center shadow-lg ${stickerStyles}`}
+              >
+                <span className='text-xs leading-none'>You Save</span>
+                <span className='font-black text-xl leading-none mt-1'>
+                  ${youSave}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className='flex-grow'>
+            <h4 className='font-black text-4xl 2xl:text-6xl text-center'>
+              ${price}
+              <span className='text-xl font-normal'>/each</span>
+            </h4>
+            <p className='font-medium text-green-600 text-center text-xs'>
+              Plus Free Shipping
+              <br />
+              <em>($8.95 value)</em>
+            </p>
+            <button
+              onClick={handleClick}
+              className='border-4 border-solid text-white border-fuchsia-400 bg-gradient-to-t  hover:border-fuchsia-300 from-fuchsia-900 hover:text-yellow-200 to-fuchsia-500 rounded-full mx-auto px-5 py-1 flex items-center justify-center font-medium text-2xl my-2'
+            >
+              <span>Buy Now</span>
+            </button>
+            <CreditCards />
+          </div>
+        </div>
+      </div>
+      <div className='p-2 bg-green-100 sm:flex justify-between border-t border-dashed border-green-800/50'>
+        <ul className='flex justify-center sm:justify-start items-center gap-2  mx-auto'>
+          <li>
+            <div className=' w-8 h-8 border border-solid border-green-700 bg-white rounded-full flex justify-center items-center'>
+              <FcLock className='scale-125' />
+            </div>
+          </li>
+          <li className='text-black text-xs leading-tight font-bold'>
+            <p>Safe and secure checkout</p>
+            <p>100% Guaranteed</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+const CreditCards = () => (
+  <ul className='flex gap-1 items-center justify-center scale-90'>
+    <li className=' w-10 h-auto overflow-hidden rounded border border-solid border-[#1b1d74]'>
+      <div className='w-40 relative'>
+        <Image src={CC} alt='Credit cards accepted' width={160} />
+      </div>
+    </li>
+    <li className=' w-10 h-auto overflow-hidden rounded border border-solid border-[#eb001b]'>
+      <div className='w-40 relative -left-10'>
+        <Image src={CC} alt='Credit cards accepted' width={160} />
+      </div>
+    </li>
+    <li className=' w-10 h-auto overflow-hidden rounded border border-solid border-[#016fd0]'>
+      <div className='w-40 relative -left-20'>
+        <Image src={CC} alt='Credit cards accepted' width={160} />
+      </div>
+    </li>
+    <li className=' w-10 h-auto overflow-hidden rounded border border-solid border-[#ef7622]'>
+      <div className='w-40 relative -left-[7.5rem]'>
+        <Image src={CC} alt='Credit cards accepted' width={160} />
+      </div>
+    </li>
+  </ul>
+);
+
 const BuyButton = () => (
   <div className=' inline-block mb-10 lg:mb-0'>
     <Link
@@ -515,3 +604,64 @@ const BuyButton = () => (
     </Link>
   </div>
 );
+
+const OldOffers = () => {
+  return (
+    <div className='background bg-fuchsia-950 text-white overflow-hidden'>
+      <div className='container mx-auto py-10 lg:py-32'>
+        <div className='px-5'>
+          <div className='flex flex-col-reverse xl:flex-row items-center relative '>
+            <div className=' w-full max-w-xl lg:max-w-3xl xl:max-w-2xl 2xl:max-w-4xl relative z-10'>
+              <div className=' bg-black/60 p-5 rounded-xl mt-10 xl:mt-0 xl:bg-transparent xl:p-0'>
+                <h3 className='mb-4 text-3xl 2xl:text-4xl text-yellow-200 font-black'>
+                  100% Money Back Guarantee
+                </h3>
+                <p className='md:text-xl 2xl:text-3xl mb-4'>
+                  <strong>
+                    All orders come with a 100% money back guarantee.{' '}
+                    <em>No questions asked.</em>
+                  </strong>
+                </p>
+                <p className=''>
+                  <strong className='text-yellow-200'>
+                    PLUS FREE SHIPPING:
+                  </strong>{' '}
+                  <u>
+                    Order right now and get FREE Shipping <em>($8.95 value)</em>
+                    !
+                  </u>
+                </p>
+              </div>
+              {/* <Offers /> */}
+              {/* <OffersAlt /> */}
+            </div>
+            <div className='w-full relative z-0'>
+              <div className='absolute flex inset-0 items-center justify-center scale-[250%]  sm:scale-[225%] -rotate-90 xl:rotate-0'>
+                <Image
+                  src={Explosion}
+                  width={2000}
+                  alt='Explosion'
+                  className=''
+                />
+                <div className='sm:hidden xl:block bg-gradient-to-l from-transparent to-fuchsia-950  absolute top-0 left-0 bottom-0 w-48 xl:w-80 '></div>
+              </div>
+              <span className='mx-auto block relative max-w-60 sm:max-w-40 md:max-w-48 lg:max-w-80  xl:max-w-96 2xl:max-w-96'>
+                <div className='flex justify-center items-center'>
+                  <div className=' w-full h-full bg-black shadow-[0_0_100px_25px_rgba(0,0,0,0.9)] absolute rounded-3xl scale-95'></div>
+                  <Image
+                    src={Product}
+                    width={400}
+                    height={100}
+                    alt='Bliss Bombs Gummies'
+                    className='relative'
+                  />
+                </div>
+                <FloatingGummies />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
