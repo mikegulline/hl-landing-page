@@ -22,8 +22,7 @@ export default function RootLayout({
     <html lang='en'>
       <head>
         <Script
-          id='tiktol-analytics'
-          strategy='beforeInteractive'
+          id='tiktok-analytics'
           dangerouslySetInnerHTML={{
             __html: `<!-- TikTok Pixel Code Start -->
       
