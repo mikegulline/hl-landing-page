@@ -494,7 +494,7 @@ const Offer = ({ count, price }: IOffer) => {
       </h3>
       <div className='p-2 2xl:p-4'>
         <div className='flex items-center'>
-          <div className='flex items-center justify-center min-w-32 sm:min-w-44 2xl:min-w-56'>
+          <div className='flex items-center justify-center min-w-40 sm:min-w-44 2xl:min-w-56'>
             <div className='relative mx-auto'>
               <Image
                 src={Product}
@@ -528,7 +528,7 @@ const Offer = ({ count, price }: IOffer) => {
             <Link
               href={`https://www.hemplandusa.com/cart/?fill_cart=${count}x1197&utm_source=landing-page&utm_campaign=tictok&utm_content=BuyNow-${count}&apply_coupon=tictok45,tictok25,tictok10`}
               id={`add-to-cart-${count}`}
-              className='border-4 border-solid text-white border-fuchsia-400 bg-gradient-to-t  hover:border-fuchsia-300 from-fuchsia-900 hover:text-yellow-200 to-fuchsia-500 rounded-full mx-auto px-5 py-1 flex items-center justify-center font-medium text-2xl my-2'
+              className='border-4 border-solid text-white border-fuchsia-400 bg-gradient-to-t  hover:border-fuchsia-300 from-fuchsia-900 hover:text-yellow-200 to-fuchsia-500 rounded-full mx-auto px-3 py-1 flex items-center justify-center font-medium text-2xl my-2'
             >
               <span>Buy Now</span>
             </Link>
