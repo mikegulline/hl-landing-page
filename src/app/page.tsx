@@ -206,7 +206,7 @@ export default function Home() {
                 <p className='text-lg 2xl:text-xl 2xl:leading-loose mb-10'>
                   The latest craze is for hemp gummies to contain artificially
                   high (spiked) levels of Delta 9, above 3mg, which may cause
-                  unpleasant side effects, like disorientation (spaced out) and
+                  unpleasant side effects, like disorientation (spaced) and
                   paranoia that can last for hours. Why take a chance? BLISS
                   BOMBS™ are the real deal, an incomparable explosion of long
                   lasting bliss with no negative side effects. Join thousands of
