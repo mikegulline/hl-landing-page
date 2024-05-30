@@ -17,7 +17,7 @@ export default function InfoLayout({
                 Home
               </Link>
             </li>
-            <li className='flex-grow'></li>
+            <li className='flex-grow hidden sm:flex'></li>
             <li>
               <Link
                 href='/contact'
