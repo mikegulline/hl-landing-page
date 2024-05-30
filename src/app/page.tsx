@@ -5,7 +5,6 @@ import Gummy from '../../public/images/gummy.png';
 import Hemp from '../../public/images/rows-of-hemp.jpg';
 import Graph from '../../public/images/graph.jpg';
 import Explosion from '../../public/images/exp.jpg';
-import SideEffects from '../../public/images/serious-negative-side-effects.jpg';
 import HappyMan1 from '../../public/images/happy-man-01.png';
 import HappyMan2 from '../../public/images/happy-man-02.png';
 import HappyMan3 from '../../public/images/happy-man-03.png';
@@ -15,7 +14,6 @@ import HappyWoman2 from '../../public/images/happy-woman-02.png';
 import HappyWoman3 from '../../public/images/happy-woman-03.png';
 import HappyWoman4 from '../../public/images/happy-woman-04.png';
 import Hippy from '../../public/images/happy-hippy.png';
-import TestBack from '../../public/images/testback.jpg';
 import YoungWoman from '../../public/images/young-woman.png';
 import CC from '../../public/images/cc.png';
 import { FcLock } from 'react-icons/fc';
@@ -209,11 +207,11 @@ export default function Home() {
                   The latest craze is for hemp gummies to contain artificially
                   high (spiked) levels of Delta 9, above 3mg, which may cause
                   unpleasant side effects, like disorientation (spaced out) and
-                  heavy anxiety that can last for hours. Why take a chance?
-                  BLISS BOMBS™ are the real deal, an incomparable explosion of
-                  long lasting bliss with no negative side effects. Join
-                  thousands of people everyday who enjoy Bliss Bombs! Find out
-                  who you truly are!
+                  paranoia that can last for hours. Why take a chance? BLISS
+                  BOMBS™ are the real deal, an incomparable explosion of long
+                  lasting bliss with no negative side effects. Join thousands of
+                  people everyday who enjoy Bliss Bombs! Find out who you truly
+                  are!
                 </p>
 
                 <BuyButton />

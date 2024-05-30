@@ -52,7 +52,7 @@ export default function RootLayout({
               alt='Clicky'
               width='1'
               height='1'
-              src='//in.getclicky.com/101454752ns.gif'
+              src='https://in.getclicky.com/101454752ns.gif'
             />
           </p>
         </noscript>
