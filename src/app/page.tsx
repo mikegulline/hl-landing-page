@@ -108,9 +108,9 @@ export default function Home() {
                     alt='Rows of USA grown hemp'
                     className='w-full'
                   />
-                  <p className='text-sm text-center p-2 pt-3'>
+                  {/* <p className='text-sm text-center p-2 pt-3'>
                     100% grown and manufactured in the U.S.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
