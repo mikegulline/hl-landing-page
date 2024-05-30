@@ -24,8 +24,9 @@ export default function Contact() {
             </div>
             <div className=' col-span-3'>
               <p>
-                If you'd like to contact us by email, please send your request
-                to info@hemplandusa.com and we will respond within 24 hours.
+                If you&apos;d like to contact us by email, please send your
+                request to info@hemplandusa.com and we will respond within 24
+                hours.
               </p>
             </div>
           </div>

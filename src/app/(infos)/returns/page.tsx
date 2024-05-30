@@ -8,9 +8,9 @@ export default function Returns() {
           </h1>
           <p className=' pb-5 mb-5 border-b border-dashed border-fuchsia-400/50 text-white font-medium text-lg'>
             HempLand® USA stands behind every one of our products and your
-            satisfaction is 100% Guaranteed. If you're not completely satisfied
-            with your product, you can return it within 45 days of delivery date
-            for a full refund. <em>No questions asked!</em>
+            satisfaction is 100% Guaranteed. If you&apos;re not completely
+            satisfied with your product, you can return it within 45 days of
+            delivery date for a full refund. <em>No questions asked!</em>
           </p>
           <div className='sm:grid grid-cols-4 pb-5 mb-5 border-b border-dashed border-fuchsia-400/50'>
             <div>
@@ -63,7 +63,7 @@ export default function Returns() {
                 Once we receive your return items, we will initiate a refund to
                 your original method of payment and send you a confirmation
                 email. It can take up to 7-10 business days to process,
-                depending on your card issuer's transaction policies.
+                depending on your card issuer&apos;s transaction policies.
               </p>
             </div>
           </div>

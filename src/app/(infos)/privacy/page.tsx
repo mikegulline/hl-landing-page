@@ -39,10 +39,11 @@ export default function Privacy() {
                 recipients is not used for marketing purposes.
               </li>
               <li>
-                Like many websites, we use "cookies" to enhance your experience
-                and gather information about visitors and visits to our
-                websites. Please refer to the "Do we use 'cookies'?" section
-                below for information about cookies and how we use them.
+                Like many websites, we use &quot;cookies&quot; to enhance your
+                experience and gather information about visitors and visits to
+                our websites. Please refer to the &quot;Do we use
+                &apos;cookies&apos;?&quot; section below for information about
+                cookies and how we use them.
               </li>
             </ul>
           </div>
@@ -77,14 +78,14 @@ export default function Privacy() {
               <li>
                 If you have opted-in to receive our e-mail newsletter, we may
                 send you periodic e-mails. If you would no longer like to
-                receive promotional e-mail from us, please refer to the "How can
-                you opt-out, remove or modify information you have provided to
-                us?" section below. If you have not opted-in to receive e-mail
-                newsletters, you will not receive these e-mails. Visitors who
-                register or participate in other site features such as marketing
-                programs and 'members-only' content will be given a choice
-                whether they would like to be on our e-mail list and receive
-                e-mail communications from us.
+                receive promotional e-mail from us, please refer to the
+                &quot;How can you opt-out, remove or modify information you have
+                provided to us?&quot; section below. If you have not opted-in to
+                receive e-mail newsletters, you will not receive these e-mails.
+                Visitors who register or participate in other site features such
+                as marketing programs and &apos;members-only&apos; content will
+                be given a choice whether they would like to be on our e-mail
+                list and receive e-mail communications from us.
               </li>
             </ul>
           </div>
@@ -122,20 +123,20 @@ export default function Privacy() {
           </div>
           <div className='pb-14 mb-5 border-b border-dashed border-fuchsia-400/50'>
             <h3 className='font-medium text-fuchsia-300 text-2xl mb-4'>
-              Do we use "cookies"?
+              Do we use &quot;cookies&quot;?
             </h3>
             <p className='mb-4'>
               Yes. Cookies are small files that a site or its service provider
-              transfers to your computer’s hard drive through your Web browser
-              (if you allow) that enables the site’s or service provider’s
-              systems to recognize your browser and capture and remember certain
-              information. For instance, we use cookies to help us remember and
-              process the items in your shopping cart. They are also used to
-              help us understand your preferences based on previous or current
-              site activity, which enables us to provide you with improved
-              services. We also use cookies to help us compile aggregate data
-              about site traffic and site interaction so that we can offer
-              better site experiences and tools in the future.
+              transfers to your computer&apos;s hard drive through your Web
+              browser (if you allow) that enables the site&apos;s or service
+              provider&apos;s systems to recognize your browser and capture and
+              remember certain information. For instance, we use cookies to help
+              us remember and process the items in your shopping cart. They are
+              also used to help us understand your preferences based on previous
+              or current site activity, which enables us to provide you with
+              improved services. We also use cookies to help us compile
+              aggregate data about site traffic and site interaction so that we
+              can offer better site experiences and tools in the future.
             </p>
 
             <p className='mb-4'>
@@ -151,10 +152,11 @@ export default function Privacy() {
               this through your browser (like Netscape Navigator or Internet
               Explorer) settings. Each browser is a little different, so look at
               your browser Help menu to learn the correct way to modify your
-              cookies. If you turn cookies off, you won’t have access to many
-              features that make your site experience more efficient and some of
-              our services will not function properly. However, you can still
-              place orders over the telephone by contacting customer service.
+              cookies. If you turn cookies off, you won&apos;t have access to
+              many features that make your site experience more efficient and
+              some of our services will not function properly. However, you can
+              still place orders over the telephone by contacting customer
+              service.
             </p>
           </div>
           <div className='pb-14 mb-5 border-b border-dashed border-fuchsia-400/50'>
@@ -165,15 +167,16 @@ export default function Privacy() {
               We are dedicated to maintaining your privacy which is why we do
               not sell, trade, or otherwise transfer to outside parties your
               personally identifiable information unless we provide you with
-              advance notice, except as described below. The term "outside
-              parties" does not include HempLand® USA. It also does not include
-              website hosting partners and other parties who assist us in
-              operating our website, conducting our business, or servicing you
-              in purchasing our products or in helping to build a healthy immune
-              system, so long as those parties agree to keep this information
-              confidential. We may also release your information when we believe
-              release is appropriate to comply with the law, enforce our site
-              policies, or protect ours or others’ rights, property, or safety.
+              advance notice, except as described below. The term &quot;outside
+              parties&quot; does not include HempLand® USA. It also does not
+              include website hosting partners and other parties who assist us
+              in operating our website, conducting our business, or servicing
+              you in purchasing our products or in helping to build a healthy
+              immune system, so long as those parties agree to keep this
+              information confidential. We may also release your information
+              when we believe release is appropriate to comply with the law,
+              enforce our site policies, or protect ours or others&apos; rights,
+              property, or safety.
             </p>
 
             <p className='mb-4'>
@@ -188,15 +191,15 @@ export default function Privacy() {
 
             <p className='mb-4'>
               To modify your e-mail subscriptions, please let us know by
-              modifying your preferences in the "My Account" section. Please
-              note that due to email production schedules you may receive any
-              emails already in production.
+              modifying your preferences in the &quot;My Account&quot; section.
+              Please note that due to email production schedules you may receive
+              any emails already in production.
             </p>
 
             <p>
               To delete all of your online account information from our
-              database, sign into the "My Account" section of our site and
-              remove your shipping addresses, billing addresses & payment
+              database, sign into the &quot;My Account&quot; section of our site
+              and remove your shipping addresses, billing addresses & payment
               information. Please note that we may maintain information about an
               individual sales transaction in order to service that transaction
               and for record keeping.

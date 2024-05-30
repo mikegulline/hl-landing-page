@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -47,7 +48,7 @@ export default function RootLayout({
         ></Script>
         <noscript>
           <p>
-            <img
+            <Image
               alt='Clicky'
               width='1'
               height='1'
