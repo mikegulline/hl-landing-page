@@ -15,13 +15,12 @@ export default function Home() {
   return (
     <>
       <HerosGummies float>
-        <h1 className=' leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight  text-center sm:text-left text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl font-bold '>
-          GLORIOUS X FACTOR
+        <h1 className=' leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight mb-10 sm:mb-0 text-center sm:text-left text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold '>
+          3 Reasons Why <br />
+          Bliss Bombs™ Blow <br />
+          Away ALL Hemp <br />
+          Gummies
         </h1>
-        <h2 className='mb-10 sm:mb-0 text-center sm:text-left text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl'>
-          How to use this mysterious power to help you recovery from almost any
-          health problem
-        </h2>
       </HerosGummies>
       <></>
       <div className='container mx-auto py-10 lg:py-20'>
