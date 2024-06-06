@@ -1,4 +1,3 @@
-'use client';
 import type { Metadata } from 'next';
 import OffersAlt from '@/components/heros/offers-3';
 import HappyPeople from '@/components/heros/happy-people';
