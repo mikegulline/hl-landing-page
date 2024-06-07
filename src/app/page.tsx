@@ -23,11 +23,11 @@ export default function XFactor() {
       <div className='border-t-[8px] mt-2 border-[#a38469] border-solid'>
         <div className='container max-w-screen-md mx-auto'>
           <div className='px-5 py-14'>
-            <h1 className='mb-6 leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight  text-center sm:text-left text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold '>
+            <h1 className='mb-4 leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight  sm:text-left text-5xl  2xl:text-6xl font-bold '>
               GLORIOUS X FACTOR
             </h1>
             <P>
-              <strong className='text-4xl text-[#a38469]'>
+              <strong className='text-2xl xl:text-4xl text-[#a38469]'>
                 On Nov. 21, 2019 the way I habitually experienced myself and the
                 world radically changed.
               </strong>
@@ -420,7 +420,7 @@ const Hr = () => (
 );
 
 const P = ({ children }: { children: React.ReactNode }) => (
-  <p className='text-base sm:text-xl mb-5'>{children}</p>
+  <p className='text-lg sm:text-xl mb-5'>{children}</p>
 );
 
 const H2 = ({ children }: { children: React.ReactNode }) => (
