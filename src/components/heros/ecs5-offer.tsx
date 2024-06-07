@@ -54,7 +54,7 @@ const ECS5Offer = () => {
             <div className='relative mx-auto'>
               <UseImage />
               <div
-                className={`w-20 h-20 flex flex-col  border-4 border-solid text-white  rounded-full absolute -top-2 -left-4  items-center justify-center shadow-lg ${stickerStyles}`}
+                className={`w-20 h-20 flex flex-col  border-4 border-solid text-white  rounded-full absolute -top-6 -left-4  items-center justify-center shadow-lg ${stickerStyles}`}
               >
                 <span className='text-xs leading-none'>You Save</span>
                 <span className='font-black text-xl leading-none mt-1'>
