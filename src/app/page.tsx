@@ -96,9 +96,7 @@ export default function XFactor() {
               available. But, as with all things you fall in love with, your
               undoing is potentially somewhere in the mix.
             </P>
-            <P>
-              <BuyButtonECS5 />
-            </P>
+            <BuyButtonECS5 />
             <H2>My Undoing </H2>
             <ArticleImage src={Undoing} alt='Mystery' />
             <P>
@@ -163,9 +161,7 @@ export default function XFactor() {
               been with me for years. We never failed. Now it was a real
               possibility.
             </P>
-            <P>
-              <BuyButtonECS5 />
-            </P>
+            <BuyButtonECS5 />
             <H2>Dr. Lee and TCM</H2>
             <ArticleImage src={TCM} alt='TCM' />
             <P>
@@ -275,9 +271,7 @@ export default function XFactor() {
             </P>
 
             <P>To a person we knew our resurrection was at hand. X factor!</P>
-            <P>
-              <BuyButtonECS5 />
-            </P>
+            <BuyButtonECS5 />
             <H2>Resurrection</H2>
             <ArticleImage src={Resurrection} alt='Resurrection' />
             <P>
@@ -305,9 +299,7 @@ export default function XFactor() {
               and exponentially. Here&apos;s a sample of what our tidal wave of
               new customers are saying:
             </P>
-            <P>
-              <BuyButtonECS5 />
-            </P>
+            <BuyButtonECS5 />
             <Hr />
             <Quote>
               <AvatarImage src={Brian} alt='Brian' />
