@@ -22,7 +22,7 @@ export default function XFactor() {
     <>
       <div className='border-t-[8px] mt-2 border-[#a38469] border-solid'>
         <div className='container max-w-screen-md mx-auto'>
-          <div className='px-5 py-14'>
+          <div className='px-5 py-8  sm:py-14'>
             <h1 className='mb-4 leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-tight 2xl:leading-tight  sm:text-left text-5xl  2xl:text-6xl font-bold '>
               GLORIOUS X FACTOR
             </h1>
@@ -424,7 +424,7 @@ const P = ({ children }: { children: React.ReactNode }) => (
 );
 
 const H2 = ({ children }: { children: React.ReactNode }) => (
-  <h2 className='text-3xl sm:text-5xl mb-10  mt-20 text-[#a38469] text-center font-bold uppercase  pb-5 border-b-4 border-[#a38469] border-solid'>
+  <h2 className='text-3xl sm:text-5xl mb-6 sm:mb-10 mt-10 sm:mt-20 text-[#a38469] text-center font-bold uppercase  pb-3 sm:pb-5 border-b-4 border-[#a38469] border-solid'>
     {children}
   </h2>
 );

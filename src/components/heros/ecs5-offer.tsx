@@ -19,7 +19,7 @@ const ECS5Offer = () => {
           src={ECS53}
           width={200}
           alt='Cannabitol ECS5 x3'
-          className='mx-auto'
+          className='mx-auto max-w-40 sm:max-w-auto'
         />
       );
     }
@@ -29,7 +29,7 @@ const ECS5Offer = () => {
           src={ECS56}
           width={200}
           alt='Cannabitol ECS5 x6'
-          className='mx-auto'
+          className='mx-auto max-w-40 sm:max-w-auto'
         />
       );
     }
@@ -38,7 +38,7 @@ const ECS5Offer = () => {
         src={ECS51}
         width={200}
         alt='Cannabitol ECS5 x1'
-        className='mx-auto'
+        className='mx-auto max-w-40 sm:max-w-auto'
       />
     );
   };

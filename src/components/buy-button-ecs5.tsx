@@ -3,7 +3,7 @@ import { FcOk } from 'react-icons/fc';
 import { FcLock } from 'react-icons/fc';
 
 const BuyButtonECS5 = () => (
-  <div className=' inline-block mt-5'>
+  <div className=' inline-block sm:mt-5'>
     <Link
       href='/#buy-now'
       className='group flex items-center bg-gradient-to-t from-blue-600/50 hover:from-green-600/50 hover:to-green-100 to-blue-100 rounded-full  border-4 border-solid border-blue-800 hover:border-green-600 relative py-1 shadow-lg shadow-gray-600/30 hover:shadow-green-800/30'
