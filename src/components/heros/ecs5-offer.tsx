@@ -19,7 +19,7 @@ const ECS5Offer = () => {
           src={ECS53}
           width={200}
           alt='Cannabitol ECS5 x3'
-          className='mx-auto max-w-40 sm:max-w-auto'
+          className='mx-auto max-w-36 sm:max-w-auto'
         />
       );
     }
@@ -29,7 +29,7 @@ const ECS5Offer = () => {
           src={ECS56}
           width={200}
           alt='Cannabitol ECS5 x6'
-          className='mx-auto max-w-40 sm:max-w-auto'
+          className='mx-auto max-w-36 sm:max-w-auto'
         />
       );
     }
@@ -38,7 +38,7 @@ const ECS5Offer = () => {
         src={ECS51}
         width={200}
         alt='Cannabitol ECS5 x1'
-        className='mx-auto max-w-40 sm:max-w-auto'
+        className='mx-auto max-w-36 sm:max-w-auto'
       />
     );
   };
@@ -50,7 +50,7 @@ const ECS5Offer = () => {
       </h3>
       <div className='p-2 2xl:p-4'>
         <div className='flex items-center'>
-          <div className='flex items-center justify-center min-w-40 sm:min-w-72 md:min-w-56'>
+          <div className='flex items-center justify-center min-w-36 sm:min-w-72 md:min-w-56'>
             <div className='relative mx-auto'>
               <UseImage />
               <div
