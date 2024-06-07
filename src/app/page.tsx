@@ -416,7 +416,7 @@ const P = ({ children }: { children: React.ReactNode }) => (
 );
 
 const H2 = ({ children }: { children: React.ReactNode }) => (
-  <h2 className='text-3xl sm:text-5xl mb-6 sm:mb-10 mt-10 sm:mt-20 text-[#a38469] text-center font-bold uppercase  pb-3 sm:pb-5 border-b-4 border-[#a38469] border-solid'>
+  <h2 className='text-3xl sm:text-5xl sm:mb-10 mt-10 sm:mt-20 text-[#a38469] text-center font-bold uppercase  pb-3 sm:pb-5 pt-4 sm:pt-0 border-t-4 sm:border-t-0  sm:border-b-4 border-[#a38469] border-solid'>
     {children}
   </h2>
 );
@@ -428,7 +428,7 @@ const Quote = ({ children }: { children: React.ReactNode }) => (
 );
 
 const ArticleImage = (props: { src: StaticImageData; alt: string }) => (
-  <figure className=' float-right ml-5 mb-5 border border-[#a38469] border-solid rounded-lg overflow-hidden w-[150px] sm:w-[300px]'>
+  <figure className=' float-right ml-5 mb-5 border border-[#a38469] border-solid rounded-lg overflow-hidden w-full sm:w-[300px]'>
     <Image
       {...props}
       width={300}

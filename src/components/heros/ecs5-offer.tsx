@@ -6,7 +6,7 @@ import Link from 'next/link';
 import ECS51 from '../../../public/images/ecs5-1.png';
 import ECS53 from '../../../public/images/ecs5-3.png';
 import ECS56 from '../../../public/images/ecs5-6.png';
-import Image, { type StaticImageData } from 'next/image';
+import Image from 'next/image';
 
 const ECS5Offer = () => {
   const [count, setCount] = useState(3);
