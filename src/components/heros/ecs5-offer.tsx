@@ -50,7 +50,7 @@ const ECS5Offer = () => {
       </h3>
       <div className='p-2 2xl:p-4'>
         <div className='flex items-center'>
-          <div className='flex items-center justify-center min-w-48 sm:min-w-72 md:min-w-56'>
+          <div className='flex items-center justify-center min-w-40 sm:min-w-72 md:min-w-56'>
             <div className='relative mx-auto'>
               <UseImage />
               <div
