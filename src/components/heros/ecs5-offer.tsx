@@ -19,7 +19,7 @@ const ECS5Offer = () => {
           src={ECS53}
           width={200}
           alt='Cannabitol ECS5 x3'
-          className='mx-auto max-w-36 sm:max-w-auto'
+          className='mx-auto w-full'
         />
       );
     }
@@ -29,7 +29,7 @@ const ECS5Offer = () => {
           src={ECS56}
           width={200}
           alt='Cannabitol ECS5 x6'
-          className='mx-auto max-w-36 sm:max-w-auto'
+          className='mx-auto w-full'
         />
       );
     }
@@ -38,7 +38,7 @@ const ECS5Offer = () => {
         src={ECS51}
         width={200}
         alt='Cannabitol ECS5 x1'
-        className='mx-auto max-w-36 sm:max-w-auto'
+        className='mx-auto w-full'
       />
     );
   };
@@ -50,7 +50,7 @@ const ECS5Offer = () => {
       </h3>
       <div className='p-2 2xl:p-4'>
         <div className='flex items-center'>
-          <div className='flex items-center justify-center min-w-36 sm:min-w-72 md:min-w-56'>
+          <div className='flex items-center justify-center min-w-36 sm:min-w-72 md:min-w-48'>
             <div className='relative mx-auto'>
               <UseImage />
               <div
@@ -64,7 +64,7 @@ const ECS5Offer = () => {
             </div>
           </div>
           <div className='flex-grow'>
-            <h4 className='font-black text-4xl 2xl:text-6xl text-center'>
+            <h4 className='font-black text-4xl text-center'>
               $45
               <span className='text-xl font-normal'>/each</span>
             </h4>
