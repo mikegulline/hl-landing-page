@@ -10,6 +10,7 @@ import Resurrection from '../../public/images/Resurrection.jpg';
 import Image, { StaticImageData } from 'next/image';
 import BuyECS5 from '@/components/heros/buy-ecs5';
 import BuyButtonECS5 from '@/components/buy-button-ecs5';
+import Stars from '@/components/Stars';
 
 export const metadata: Metadata = {
   title: 'GLORIOUS X FACTOR',
@@ -70,7 +71,7 @@ export default function XFactor() {
             <P>
               I&apos;ve been in the supplement business for 40 years. I am
               currently the CEO of IMMUNOCORP which I founded 25 years ago. I am
-              also the CEO of HempLand USA which I founded 9 years ago.
+              also the CEO of HempLand USA which I founded 10 years ago.
             </P>
 
             <P>
@@ -320,6 +321,7 @@ export default function XFactor() {
                 P.S. The pains and other health conditions I used to constantly
                 complain about have disappeared!&quot;
               </P>
+              <Stars />
               <P>—Brian L., Dallas, TX</P>
             </Quote>
 
@@ -339,6 +341,7 @@ export default function XFactor() {
                 fixed all of my health issues but it definitely helped big time!
                 Nothing else ever has.&quot;
               </P>
+              <Stars />
               <P>—Janet P., Bangor, MI</P>
             </Quote>
 
@@ -354,6 +357,7 @@ export default function XFactor() {
                 nothing like CANNABITOL®. My friend was right, this stuff is
                 different.&quot;
               </P>
+              <Stars />
               <P>—Ryan M., Whittier, CA</P>
             </Quote>
 
@@ -385,6 +389,7 @@ export default function XFactor() {
                 everything. What more can I say about CANNABITOL®. It&apos;s
                 incredible!&quot;
               </P>
+              <Stars />
               <P>—Roberta S., Seattle, WA</P>
             </Quote>
             <Hr />
@@ -396,6 +401,13 @@ export default function XFactor() {
               Why not experience what ECS5 Enhanced CANNABITOL® 5000 can do for
               you? It&apos;s loaded with X factor like no other product. You
               won&apos;t be disappointed.
+            </P>
+            <P>
+              <strong>
+                Richard Waggoner
+                <br />
+                CEO/Founder HempLand® USA
+              </strong>
             </P>
           </div>
         </div>
